@@ -1,10 +1,10 @@
-# hexo-generator-database
-Extract the database of HEXO blog into JSON or XML files
+# hexo-generator-readtime
+A HEXO package that counts the number of words, number of charchters, number of images, and expect the read time of the post.
 
 ## Install
 
 ``` bash
-$ npm install hexo-generator-database --save
+$ npm install hexo-generator-readtime
 ```
 
 ## Options
@@ -12,32 +12,26 @@ $ npm install hexo-generator-database --save
 You can configure this plugin in your root `_config.yml`.
 
 ``` yaml
-database:
-  path: db.json
-  fields: [post]
+readtime:
+  wordCount:
+    fields: [content] 
+    wordsPerMinute: 15
+  charCount:
+    fields: [content]
+  imgCount:
+    fields: [content]
+    imgsPerMinute: 4
 ```
 
-- **path** - file path. By default is `db.json`.
-- **fields** - the generate scope you want to generate, you can include:
-  * **post** (Default) - will only covers all the posts of your blog. `(The only supported for now)`
-  * **page** - will only covers all the pages of your blog.
-
-## Exclude indexing
-
-To exclude a certain post or page from being indexed, you can simply insert `indexing: false` setting at the top of its front-matter, *e.g.*:
-
-```yml
-title: "Code Highlight"
-date: "2014-03-15 20:17:16"
-tags: highlight
-categories: Demo
-description: "A collection of Hello World applications from helloworld.org."
-toc: true
-indexing: false
----
-```
-
-Then the generated result will not contain this post or page.
+- **wordCount** - settings for words counting.
+  - **fields** - Any variable contains text in your front-matter to count its words, `(DEFAULT: content)`.
+  - **wordsPerMinute** - The expected words the user can read per minute.
+- **charCount** - settings for characters counting.
+  - **fields** - Any variable contains text in your front-matter to count its characters, `(DEFAULT: content)`.
+- **imgCount** - settings for images counting.
+  - **fields** - Any variable contains text in your front-matter to count its images, `(DEFAULT: content)`.
+  - **imgsPerMinute** - The expected images the user can see per minute.
+  
 
 ## Sponsor
 I have created and used this package in my sponsor's [Blog](https://blog.richiebartlett.com/), you can find him at his [Website](https://richiebartlett.com/), also [Github](https://github.com/lorezyra)
