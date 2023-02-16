@@ -1,0 +1,15 @@
+{
+  "name": "hexo-generator-readtime",
+  "version": "1.0.0",
+  "description": "Extract the database of HEXO blog into JSON or XML files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hexo-front-matter": "^4.0.0",
+    "hexo-fs": "^4.1.1"
+  }
+}
