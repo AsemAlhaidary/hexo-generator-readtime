@@ -1,0 +1,1035 @@
+{
+  "countLangOutput": [
+    {
+      "humanReadable": false
+    },
+    {
+      "defaultTime": "seconds"
+    },
+    {
+      "imgReadTime": 12
+    }
+  ],
+  "countLangProfile": [
+    {
+      "ar": [
+        {
+          "charPerMin": 612
+        },
+        {
+          "wordsPerMin": 138
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{time_period} %d {about}"
+            },
+            {
+              "about": "حول"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "الثانية"
+                },
+                {
+                  "seconds": "ثواني"
+                },
+                {
+                  "minute": "الدقيقة"
+                },
+                {
+                  "minutes": "دقيقة"
+                },
+                {
+                  "hour": "الساعة"
+                },
+                {
+                  "hours": "ساعات"
+                },
+                {
+                  "day": "اليوم"
+                },
+                {
+                  "days": "أيام"
+                },
+                {
+                  "month": "الشهر"
+                },
+                {
+                  "months": "شهور"
+                },
+                {
+                  "year": "السنة"
+                },
+                {
+                  "years": "سنوات"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "zh": [
+        {
+          "charPerMin": 255
+        },
+        {
+          "wordsPerMin": 158
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "約"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "秒"
+                },
+                {
+                  "seconds": "秒"
+                },
+                {
+                  "minute": "分鐘"
+                },
+                {
+                  "minutes": "分鐘"
+                },
+                {
+                  "hour": "小时"
+                },
+                {
+                  "hours": "小时"
+                },
+                {
+                  "day": "日"
+                },
+                {
+                  "days": "日"
+                },
+                {
+                  "month": "月"
+                },
+                {
+                  "months": "月"
+                },
+                {
+                  "year": "年"
+                },
+                {
+                  "years": "年"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nl": [
+        {
+          "charPerMin": 978
+        },
+        {
+          "wordsPerMin": 202
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "Ongeveer"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "seconde"
+                },
+                {
+                  "seconds": "seconden"
+                },
+                {
+                  "minute": "minuut"
+                },
+                {
+                  "minutes": "minuten"
+                },
+                {
+                  "hour": "uur"
+                },
+                {
+                  "hours": "uur"
+                },
+                {
+                  "day": "dag"
+                },
+                {
+                  "days": "dagen"
+                },
+                {
+                  "month": "maand"
+                },
+                {
+                  "months": "maanden"
+                },
+                {
+                  "year": "jaar"
+                },
+                {
+                  "years": "jaar"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "en": [
+        {
+          "charPerMin": 987
+        },
+        {
+          "wordsPerMin": 228
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "About"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "second"
+                },
+                {
+                  "seconds": "seconds"
+                },
+                {
+                  "minute": "minute"
+                },
+                {
+                  "minutes": "minutes"
+                },
+                {
+                  "hour": "hour"
+                },
+                {
+                  "hours": "hours"
+                },
+                {
+                  "day": "day"
+                },
+                {
+                  "days": "days"
+                },
+                {
+                  "month": "month"
+                },
+                {
+                  "months": "months"
+                },
+                {
+                  "year": "year"
+                },
+                {
+                  "years": "years"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fi": [
+        {
+          "charPerMin": 1078
+        },
+        {
+          "wordsPerMin": 161
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "Noin"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "toinen"
+                },
+                {
+                  "seconds": "sekuntia"
+                },
+                {
+                  "minute": "minuutti"
+                },
+                {
+                  "minutes": "minuuttia"
+                },
+                {
+                  "hour": "tunti"
+                },
+                {
+                  "hours": "tuntia"
+                },
+                {
+                  "day": "päivä"
+                },
+                {
+                  "days": "päivää"
+                },
+                {
+                  "month": "kuukausi"
+                },
+                {
+                  "months": "kuukautta"
+                },
+                {
+                  "year": "vuosi"
+                },
+                {
+                  "years": "vuotta"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fr": [
+        {
+          "charPerMin": 998
+        },
+        {
+          "wordsPerMin": 195
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "Environ"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "seconde"
+                },
+                {
+                  "seconds": "secondes"
+                },
+                {
+                  "minute": "minute"
+                },
+                {
+                  "minutes": "minutes"
+                },
+                {
+                  "hour": "heure"
+                },
+                {
+                  "hours": "heures"
+                },
+                {
+                  "day": "jour"
+                },
+                {
+                  "days": "jours"
+                },
+                {
+                  "months": "mois"
+                },
+                {
+                  "month": "mois"
+                },
+                {
+                  "year": "année"
+                },
+                {
+                  "years": "années"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "de": [
+        {
+          "charPerMin": 920
+        },
+        {
+          "wordsPerMin": 179
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "Ungefähr"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "sekunde"
+                },
+                {
+                  "seconds": "sekunden"
+                },
+                {
+                  "minute": "minute"
+                },
+                {
+                  "minutes": "minuten"
+                },
+                {
+                  "hour": "stunde"
+                },
+                {
+                  "hours": "stunden"
+                },
+                {
+                  "day": "tag"
+                },
+                {
+                  "days": "tage"
+                },
+                {
+                  "month": "monat"
+                },
+                {
+                  "months": "monate"
+                },
+                {
+                  "year": "jahr"
+                },
+                {
+                  "years": "jahre"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "he": [
+        {
+          "charPerMin": 833
+        },
+        {
+          "wordsPerMin": 187
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "בערך"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "שניות"
+                },
+                {
+                  "seconds": "שניות"
+                },
+                {
+                  "minute": "דקה"
+                },
+                {
+                  "minutes": "דקות"
+                },
+                {
+                  "hour": "שעה"
+                },
+                {
+                  "hours": "שעות"
+                },
+                {
+                  "day": "יום"
+                },
+                {
+                  "days": "ימים"
+                },
+                {
+                  "month": "חודש"
+                },
+                {
+                  "months": "חודשים"
+                },
+                {
+                  "year": "שנה"
+                },
+                {
+                  "years": "שנים"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "it": [
+        {
+          "charPerMin": 950
+        },
+        {
+          "wordsPerMin": 188
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "Circa"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "secondo"
+                },
+                {
+                  "seconds": "secondi"
+                },
+                {
+                  "minute": "minuto"
+                },
+                {
+                  "minutes": "minuti"
+                },
+                {
+                  "hour": "ora"
+                },
+                {
+                  "hours": "ore"
+                },
+                {
+                  "day": "giorno"
+                },
+                {
+                  "days": "giorni"
+                },
+                {
+                  "month": "mese"
+                },
+                {
+                  "months": "mesi"
+                },
+                {
+                  "year": "anno"
+                },
+                {
+                  "years": "anni"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jp": [
+        {
+          "charPerMin": 357
+        },
+        {
+          "wordsPerMin": 193
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "残り"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "秒間"
+                },
+                {
+                  "seconds": "秒間"
+                },
+                {
+                  "minute": "分間"
+                },
+                {
+                  "minutes": "分間"
+                },
+                {
+                  "hour": "時間"
+                },
+                {
+                  "hours": "時間"
+                },
+                {
+                  "day": "日間"
+                },
+                {
+                  "days": "日間"
+                },
+                {
+                  "month": "月間"
+                },
+                {
+                  "months": "月間"
+                },
+                {
+                  "year": "年間"
+                },
+                {
+                  "years": "年間"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pl": [
+        {
+          "charPerMin": 916
+        },
+        {
+          "wordsPerMin": 166
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "Około"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "sekunda"
+                },
+                {
+                  "seconds": "sekundy"
+                },
+                {
+                  "minute": "minuta"
+                },
+                {
+                  "minutes": "minuty"
+                },
+                {
+                  "hour": "godzina"
+                },
+                {
+                  "hours": "godziny"
+                },
+                {
+                  "day": "dzień"
+                },
+                {
+                  "days": "dni"
+                },
+                {
+                  "month": "miesiąc"
+                },
+                {
+                  "months": "miesiące"
+                },
+                {
+                  "year": "rok"
+                },
+                {
+                  "years": "lata"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pt": [
+        {
+          "charPerMin": 913
+        },
+        {
+          "wordsPerMin": 181
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "Cerca de"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "segundo"
+                },
+                {
+                  "seconds": "segundos"
+                },
+                {
+                  "minute": "minuto"
+                },
+                {
+                  "minutes": "minutos"
+                },
+                {
+                  "hour": "hora"
+                },
+                {
+                  "hours": "horário"
+                },
+                {
+                  "day": "dia"
+                },
+                {
+                  "days": "dias"
+                },
+                {
+                  "month": "mês"
+                },
+                {
+                  "months": "meses"
+                },
+                {
+                  "year": "ano"
+                },
+                {
+                  "years": "anos"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ru": [
+        {
+          "charPerMin": 986
+        },
+        {
+          "wordsPerMin": 184
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "Около"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "Второе"
+                },
+                {
+                  "seconds": "секунды"
+                },
+                {
+                  "minute": "минута"
+                },
+                {
+                  "minutes": "минуты"
+                },
+                {
+                  "hour": "час"
+                },
+                {
+                  "hours": "часы"
+                },
+                {
+                  "day": "День"
+                },
+                {
+                  "days": "дни"
+                },
+                {
+                  "month": "Месяц"
+                },
+                {
+                  "months": "месяц"
+                },
+                {
+                  "year": "Год"
+                },
+                {
+                  "years": "годы"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sl": [
+        {
+          "charPerMin": 885
+        },
+        {
+          "wordsPerMin": 180
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "Približno"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "drugi"
+                },
+                {
+                  "seconds": "sekunde"
+                },
+                {
+                  "minute": "minuta"
+                },
+                {
+                  "minutes": "minute"
+                },
+                {
+                  "hour": "ura"
+                },
+                {
+                  "hours": "ure"
+                },
+                {
+                  "day": "dan"
+                },
+                {
+                  "days": "dnevi"
+                },
+                {
+                  "month": "mesec"
+                },
+                {
+                  "months": "meseci"
+                },
+                {
+                  "year": "leto"
+                },
+                {
+                  "years": "leta"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "es": [
+        {
+          "charPerMin": 1025
+        },
+        {
+          "wordsPerMin": 218
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "Unos"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "segundo"
+                },
+                {
+                  "seconds": "segundos"
+                },
+                {
+                  "minute": "minuto"
+                },
+                {
+                  "minutes": "minutos"
+                },
+                {
+                  "hour": "hora"
+                },
+                {
+                  "hours": "horas"
+                },
+                {
+                  "day": "día"
+                },
+                {
+                  "days": "días"
+                },
+                {
+                  "month": "mes"
+                },
+                {
+                  "months": "meses"
+                },
+                {
+                  "year": "año"
+                },
+                {
+                  "years": "años"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sv": [
+        {
+          "charPerMin": 917
+        },
+        {
+          "wordsPerMin": 199
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "Cirka"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "andra"
+                },
+                {
+                  "seconds": "sekunder"
+                },
+                {
+                  "minute": "minutes"
+                },
+                {
+                  "minutes": "minuter"
+                },
+                {
+                  "hour": "timme"
+                },
+                {
+                  "hours": "timmar"
+                },
+                {
+                  "day": "dag"
+                },
+                {
+                  "days": "dagar"
+                },
+                {
+                  "month": "månad"
+                },
+                {
+                  "months": "månader"
+                },
+                {
+                  "year": "år"
+                },
+                {
+                  "years": "år"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tr": [
+        {
+          "charPerMin": 1054
+        },
+        {
+          "wordsPerMin": 166
+        },
+        {
+          "fuzzyTime": [
+            {
+              "pattern": "{about} %d {time_period}"
+            },
+            {
+              "about": "Yaklaşık"
+            },
+            {
+              "time_period": [
+                {
+                  "second": "ikinci"
+                },
+                {
+                  "seconds": "saniyeler"
+                },
+                {
+                  "minute": "dakika"
+                },
+                {
+                  "minutes": "dakika"
+                },
+                {
+                  "hour": "saat"
+                },
+                {
+                  "hours": "saatler"
+                },
+                {
+                  "day": "gün"
+                },
+                {
+                  "days": "günler"
+                },
+                {
+                  "month": "ay"
+                },
+                {
+                  "months": "aylar"
+                },
+                {
+                  "year": "yıl"
+                },
+                {
+                  "years": "yıllar"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
