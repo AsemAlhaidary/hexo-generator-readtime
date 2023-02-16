@@ -25,42 +25,42 @@
               "pattern": "{time_period} %d {about}"
             },
             {
-              "about": "حول"
+              "about": "حوالي"
             },
             {
               "time_period": [
                 {
-                  "second": "الثانية"
+                  "second": "ثانية"
                 },
                 {
                   "seconds": "ثواني"
                 },
                 {
-                  "minute": "الدقيقة"
+                  "minute": "دقيقة"
                 },
                 {
                   "minutes": "دقيقة"
                 },
                 {
-                  "hour": "الساعة"
+                  "hour": "ساعة"
                 },
                 {
                   "hours": "ساعات"
                 },
                 {
-                  "day": "اليوم"
+                  "day": "يوم"
                 },
                 {
                   "days": "أيام"
                 },
                 {
-                  "month": "الشهر"
+                  "month": "شهر"
                 },
                 {
                   "months": "شهور"
                 },
                 {
-                  "year": "السنة"
+                  "year": "سنة"
                 },
                 {
                   "years": "سنوات"
