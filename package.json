@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-readtime",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Generates a word counting, character counting, images counting and read time counting, then updates the front-matter of the posts with the correct values.",
   "main": "index.js",
   "scripts": {
