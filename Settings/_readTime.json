@@ -2,7 +2,7 @@
   "humanReadable": false,
   "defaultTime": "seconds",
   "imgReadTime": 12,
-  "countLangProfile": {
+  "langProfile": {
     "ar": {
       "charPerMin": 612,
       "wordsPerMin": 138,
@@ -29,7 +29,7 @@
       "charPerMin": 255,
       "wordsPerMin": 158,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
+        "pattern": "%(about)s%(count)d%(time_period)s",
         "about": "約",
         "time_period": {
           "second": "秒",
@@ -205,7 +205,7 @@
       "charPerMin": 357,
       "wordsPerMin": 193,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
+        "pattern": "%(about)s%(count)d%(time_period)s",
         "about": "残り",
         "time_period": {
           "second": "秒間",
