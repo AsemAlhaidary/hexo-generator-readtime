@@ -1,6 +1,6 @@
 {
   "humanReadable": false,
-  "defaultTime": "seconds",
+  "defaultTime": "auto",
   "imgReadTime": 12,
   "langProfile": {
     "ar": {
