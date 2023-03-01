@@ -1,6 +1,6 @@
 {
   "humanReadable": false,
-  "defaultTime": "seconds",
+  "defaultTime": "auto",
   "imgReadTime": 12,
   "langProfile": {
     "ar": {
@@ -271,7 +271,7 @@
       "charPerMin": 986,
       "wordsPerMin": 184,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
+        "pattern": "%(about)s %(count)d%(time_period)s",
         "about": "Около",
         "time_period": {
           "second": "Второе",
