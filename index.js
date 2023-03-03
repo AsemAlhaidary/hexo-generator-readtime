@@ -19,21 +19,24 @@ let readTime_init = function (post) {
     let lang = post.lang || hexo.config.language[0] || 'en';
 
     //TODO: get `hexo.config.readtime.defaultTime` (and imgReadTime)
-    
-    let rtObj = new readTime(rtSettings.langProfile[lang], post.content, {defaultTime: rtSettings.defaultTime, imgReadTime: rtSettings.imgReadTime});
+
+    let rtObj = new readTime(rtSettings.langProfile[lang], post.content, {
+        defaultTime: rtSettings.defaultTime,
+        imgReadTime: rtSettings.imgReadTime
+    });
     let rtString = rtObj.calculate();
 
-    
-  // Update post
-  Object.assign(post, {
-    wordCount: rtObj.wordCount,
-    charCount: rtObj.charCount,
-    imgCount: rtObj.imgCount,
-    readTime: rtString,
-  });
 
-  //TODO: write to markdown file
-    
+    // Update post
+    Object.assign(post, {
+        wordCount: rtObj.wordCount,
+        charCount: rtObj.charCount,
+        imgCount: rtObj.imgCount,
+        readTime: rtString,
+    });
+
+    //TODO: write to markdown file
+
 };
 
 
