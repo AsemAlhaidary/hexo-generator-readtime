@@ -1,0 +1,14 @@
+{
+    "[markdown]": {
+        "editor.fontSize": 11,
+        "editor.lineHeight": 26,
+        "editor.wordWrapColumn": 84,
+        "editor.lineNumbers": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.minimap.enabled": true
+    }
+}

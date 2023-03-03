@@ -46,7 +46,9 @@
             ],
             "runtimeExecutable": "node",
             "runtimeArgs": [
-                "--inspect-brk=4001"
+                "--inspect-brk=4001",
+                "--experimental-modules",
+                "--preserve-symlinks"
             ],
             "processId": "${command:PickProcess}",
             "protocol": "inspector",
