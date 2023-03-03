@@ -10,7 +10,7 @@ const readTime = require('./lib/readtime');
 
 
 /**
- * @function init
+ * @function readTime_init
  * @description initializes parameters and logic for readTime plugin
  * @param {object} post 
  */
