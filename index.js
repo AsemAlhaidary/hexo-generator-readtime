@@ -17,6 +17,9 @@ const readTime = require('./lib/readtime');
 let readTime_init = function (post) {
 
     let lang = post.lang || hexo.config.language[0] || 'en';
+
+    //TODO: get `hexo.config.readtime.defaultTime` (and imgReadTime)
+    
     let rtObj = new readTime(rtSettings.langProfile[lang], post.content, {defaultTime: rtSettings.defaultTime, imgReadTime: rtSettings.imgReadTime});
     let rtString = rtObj.calculate();
 
