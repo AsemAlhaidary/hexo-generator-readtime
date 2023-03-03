@@ -3,13 +3,16 @@
   "imgReadTime": 12,
   "langProfile": {
     "ar": {
-      "name":"اَلْعَرَبِيَّةُ",
+      "name": "Arabic",
+      "nativeName": "العربية",
+      "family": "Afro-Asiatic",
+      "region": ["Middle East", "North Africa"],
       "unicodeRange": ["\u0021-\u007E", "\u0600-\u06FF", "\u0750-\u077F", "\u0870-\u089F", "\u08A0-\u08FF", "\uFB50-\uFDFF", "\uFE70-\uFEFF"],
       "charPerMin": 612,
       "wordsPerMin": 138,
       "fuzzyTime": {
-        "pattern": "%(time_period)s %(count)d %(about)s",
-        "about": "حوالي",
+        "pattern": "%(time_period)s %(count)d %(approx)s",
+        "approx": "حوالي",
         "time_period": {
           "second": "ثانية",
           "seconds": "ثواني",
@@ -26,62 +29,71 @@
         }
       }
     },
-    "zh": {
-      "name":"中文",
-      "unicodeRange": ["\u0021-\u007E", "\u0021-\u007E", "\u4E00-\u9FFF"],
-      "charPerMin": 255,
-      "wordsPerMin": 158,
+    "bn": {
+      "name": "Bengali",
+      "nativeName": "বাংলা",
+      "family": "Indo-European",
+      "region": ["Bangladesh", "India"],
+      "unicodeRange": ["\u0980-\u09FF"],
+      "charPerMin": 616,
+      "wordsPerMin": 150,
       "fuzzyTime": {
-        "pattern": "%(about)s%(count)d%(time_period)s",
-        "about": "約",
+        "pattern": "%(count)d %(time_period)s %(approx)s",
+        "approx": "প্রায়",
         "time_period": {
-          "second": "秒",
-          "seconds": "秒",
-          "minute": "分鐘",
-          "minutes": "分鐘",
-          "hour": "小时",
-          "hours": "小时",
-          "day": "日",
-          "days": "日",
-          "month": "月",
-          "months": "月",
-          "year": "年",
-          "years": "年"
+          "second": "সেকেন্ড",
+          "seconds": "সেকেন্ড",
+          "minute": "মিনিট",
+          "minutes": "মিনিট",
+          "hour": "ঘন্টা",
+          "hours": "ঘন্টা",
+          "day": "দিন",
+          "days": "দিন",
+          "month": "মাস",
+          "months": "মাস",
+          "year": "বছর",
+          "years": "বছর"
         }
       }
     },
-    "nl": {
-      "name":"Nederlands",
+    "de": {
+      "name": "German",
+      "nativeName": "Deutsch",
+      "family": "Germanic",
+      "region": ["Germany", "Austria", "Switzerland"],
       "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
-      "charPerMin": 978,
-      "wordsPerMin": 202,
+      "charPerMin": 920,
+      "wordsPerMin": 179,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
-        "about": "Ongeveer",
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "Ungefähr",
         "time_period": {
-          "second": "seconde",
-          "seconds": "seconden",
-          "minute": "minuut",
+          "second": "sekunde",
+          "seconds": "sekunden",
+          "minute": "minute",
           "minutes": "minuten",
-          "hour": "uur",
-          "hours": "uur",
-          "day": "dag",
-          "days": "dagen",
-          "month": "maand",
-          "months": "maanden",
-          "year": "jaar",
-          "years": "jaar"
+          "hour": "stunde",
+          "hours": "stunden",
+          "day": "tag",
+          "days": "tage",
+          "month": "monat",
+          "months": "monate",
+          "year": "jahr",
+          "years": "jahre"
         }
       }
     },
     "en": {
-      "name":"English",
+      "name": "English",
+      "nativeName": "English",
+      "family": "Germanic",
+      "region": ["United States", "United Kingdom", "Canada", "Australia"],
       "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F"],
       "charPerMin": 987,
       "wordsPerMin": 228,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
-        "about": "About",
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "About",
         "time_period": {
           "second": "second",
           "seconds": "seconds",
@@ -98,14 +110,68 @@
         }
       }
     },
+    "es": {
+      "name": "Spanish",
+      "nativeName": "Español",
+      "family": "Romance",
+      "region": ["Spain", "Mexico", "Colombia", "Argentina"],
+      "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
+      "charPerMin": 1025,
+      "wordsPerMin": 218,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "Unos",
+        "time_period": {
+          "second": "segundo",
+          "seconds": "segundos",
+          "minute": "minuto",
+          "minutes": "minutos",
+          "hour": "hora",
+          "hours": "horas",
+          "day": "día",
+          "days": "días",
+          "month": "mes",
+          "months": "meses",
+          "year": "año",
+          "years": "años"
+        }
+      }
+    },
+    "fa": {
+      "name": "Persian (Farsi)",
+      "nativeName": "فارسی",
+      "family": "Indo-European",
+      "region": ["Iran", "Afghanistan", "Tajikistan"],
+      "unicodeRange": ["\u0021-\u007E", "\u0600-\u06FF", "\uFB8A-\uFCFF"],
+      "charPerMin": 700,
+      "wordsPerMin": 150,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "حدود",
+        "time_period": {
+          "second": "ثانیه",
+          "seconds": "ثانیه",
+          "minute": "دقیقه",
+          "minutes": "دقیقه",
+          "hour": "ساعت",
+          "hours": "ساعت",
+          "day": "روز",
+          "days": "روز",
+          "month": "ماه",
+          "months": "ماه",
+          "year": "سال",
+          "years": "سال"
+        }
+      }
+    },
     "fi": {
-      "name":"suomi",
+      "name": "suomi",
       "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
       "charPerMin": 1078,
       "wordsPerMin": 161,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
-        "about": "Noin",
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "Noin",
         "time_period": {
           "second": "toinen",
           "seconds": "sekuntia",
@@ -123,13 +189,13 @@
       }
     },
     "fr": {
-      "name":"français",
+      "name": "français",
       "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
       "charPerMin": 998,
       "wordsPerMin": 195,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
-        "about": "Environ",
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "Environ",
         "time_period": {
           "second": "seconde",
           "seconds": "secondes",
@@ -146,38 +212,41 @@
         }
       }
     },
-    "de": {
-      "name":"Deutsch",
-      "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
-      "charPerMin": 920,
-      "wordsPerMin": 179,
+    "gu": {
+      "name": "Gujarati",
+      "nativeName": "ગુજરાતી",
+      "family": "Indo-European",
+      "region": ["India", "Pakistan"],
+      "unicodeRange": ["\u0021-\u007E", "\u0A81-\u0AD0", "\u0AE0-\u0AE3"],
+      "charPerMin": 550,
+      "wordsPerMin": 105,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
-        "about": "Ungefähr",
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "સમાંતર",
         "time_period": {
-          "second": "sekunde",
-          "seconds": "sekunden",
-          "minute": "minute",
-          "minutes": "minuten",
-          "hour": "stunde",
-          "hours": "stunden",
-          "day": "tag",
-          "days": "tage",
-          "month": "monat",
-          "months": "monate",
-          "year": "jahr",
-          "years": "jahre"
+          "second": "સેકન્ડ",
+          "seconds": "સેકન્ડો",
+          "minute": "મિનિટ",
+          "minutes": "મિનિટો",
+          "hour": "કલાક",
+          "hours": "કલાકો",
+          "day": "દિવસ",
+          "days": "દિવસો",
+          "month": "મહિનો",
+          "months": "મહિના",
+          "year": "વર્ષ",
+          "years": "વર્ષો"
         }
       }
     },
     "he": {
-      "name":"עִבְרִית",
+      "name": "עִבְרִית",
       "unicodeRange": ["\u0021-\u007E", "\u0590-\u05FF", "\uFB00-\uFB4F"],
       "charPerMin": 833,
       "wordsPerMin": 187,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
-        "about": "בערך",
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "בערך",
         "time_period": {
           "second": "שניות",
           "seconds": "שניות",
@@ -194,14 +263,38 @@
         }
       }
     },
+    "hi": {
+      "name": "हिन्दी",
+      "unicodeRange": ["\u0021-\u007E", "\u0900-\u097F"],
+      "charPerMin": 567,
+      "wordsPerMin": 127,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "अनुमानित",
+        "time_period": {
+          "second": "सेकंड",
+          "seconds": "सेकंड",
+          "minute": "मिनट",
+          "minutes": "मिनट",
+          "hour": "घंटा",
+          "hours": "घंटे",
+          "day": "दिन",
+          "days": "दिन",
+          "month": "महीना",
+          "months": "महीने",
+          "year": "साल",
+          "years": "साल"
+        }
+      }
+    },
     "it": {
-      "name":"italiano",
+      "name": "italiano",
       "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
       "charPerMin": 950,
       "wordsPerMin": 188,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
-        "about": "Circa",
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "Circa",
         "time_period": {
           "second": "secondo",
           "seconds": "secondi",
@@ -218,14 +311,44 @@
         }
       }
     },
+    "jin": {
+      "name": "Jin",
+      "nativeName": "晋语",
+      "family": "Sino-Tibetan",
+      "region": ["China"],
+      "unicodeRange": ["\u0021-\u007E", "\u4E00-\u9FFF"],
+      "charPerMin": 300,
+      "wordsPerMin": 150,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "约",
+        "time_period": {
+          "second": "秒",
+          "seconds": "秒",
+          "minute": "分钟",
+          "minutes": "分钟",
+          "hour": "小时",
+          "hours": "小时",
+          "day": "天",
+          "days": "天",
+          "month": "月",
+          "months": "月",
+          "year": "年",
+          "years": "年"
+        }
+      }
+    },
     "jp": {
-      "name":"日本語",
-      "unicodeRange": ["\u0021-\u007E", "\u3040-\u309f", "\u30A0-\u30ff","\u4E00-\u9FFF"],
+      "name": "Japanese",
+      "nativeName": "日本語",
+      "family": "Japonic",
+      "region": ["Japan"],
+      "unicodeRange": ["\u0021-\u007E", "\u3040-\u309f", "\u30A0-\u30ff", "\u4E00-\u9FFF"],
       "charPerMin": 357,
       "wordsPerMin": 193,
       "fuzzyTime": {
-        "pattern": "%(about)s%(count)d%(time_period)s",
-        "about": "残り",
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "残り",
         "time_period": {
           "second": "秒間",
           "seconds": "秒間",
@@ -242,14 +365,44 @@
         }
       }
     },
+    "jv": {
+      "name": "Javanese",
+      "nativeName": "Basa Jawa",
+      "family": "Austronesian",
+      "region": ["Indonesia"],
+      "unicodeRange": ["\u0020-\u007E", "\u0100-\u017F", "\u1B00-\u1B7F"],
+      "charPerMin": 669,
+      "wordsPerMin": 125,
+      "fuzzyTime": {
+        "pattern": "%(approx)%(count)d %(time_period)s",
+        "approx": "",
+        "time_period": {
+          "second": "detik",
+          "seconds": "detik",
+          "minute": "menit",
+          "minutes": "menit",
+          "hour": "jam",
+          "hours": "jam",
+          "day": "dina",
+          "days": "dina",
+          "month": "sasi",
+          "months": "sasi",
+          "year": "taun",
+          "years": "taun"
+        }
+      }
+    },
     "kr": {
-      "name":"한국어",
+      "name": "Korean",
+      "nativeName": "한국어",
+      "family": "Koreanic",
+      "region": ["South Korea", "North Korea"],
       "unicodeRange": ["\u0021-\u007E", "\u1100-\u11ff"],
       "charPerMin": 285,
       "wordsPerMin": 200,
       "fuzzyTime": {
-        "pattern": "%(about)s%(count)d%(time_period)s",
-        "about": "남은",
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "남은",
         "time_period": {
           "second": "초간",
           "seconds": "초간",
@@ -266,14 +419,68 @@
         }
       }
     },
-    "pl": {
-      "name":"polski",
+    "nl": {
+      "name": "Nederlands",
       "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
-      "charPerMin": 916,
+      "charPerMin": 978,
+      "wordsPerMin": 202,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "Ongeveer",
+        "time_period": {
+          "second": "seconde",
+          "seconds": "seconden",
+          "minute": "minuut",
+          "minutes": "minuten",
+          "hour": "uur",
+          "hours": "uur",
+          "day": "dag",
+          "days": "dagen",
+          "month": "maand",
+          "months": "maanden",
+          "year": "jaar",
+          "years": "jaar"
+        }
+      }
+    },
+    "pa": {
+      "name": "Punjabi",
+      "nativeName": "ਪੰਜਾਬੀ",
+      "family": "Indo-Aryan",
+      "region": ["India", "Pakistan"],
+      "unicodeRange": ["\u0020-\u007E", "\u0A00-\u0A7F", "\u0A80-\u0AFF"],
+      "charPerMin": 735,
+      "wordsPerMin": 130,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "ਕਰੀਬ",
+        "time_period": {
+          "second": "ਸਕਿੰਟ",
+          "seconds": "ਸਕਿੰਟ",
+          "minute": "ਮਿੰਟ",
+          "minutes": "ਮਿੰਟ",
+          "hour": "ਘੰਟਾ",
+          "hours": "ਘੰਟੇ",
+          "day": "ਦਿਨ",
+          "days": "ਦਿਨ",
+          "month": "ਮਹੀਨਾ",
+          "months": "ਮਹੀਨੇ",
+          "year": "ਸਾਲ",
+          "years": "ਸਾਲ"
+        }
+      }
+    },
+    "pl": {
+      "name": "Polish",
+      "nativeName": "polski",
+      "family": "Indo-European",
+      "region": ["Poland"],
+      "unicodeRange": ["\u0020-\u007E", "\u0104-\u017C", "\u00A1-\u00BF", "\u0105-\u017A", "\u02B0-\u02FF"],
+      "charPerMin": 885,
       "wordsPerMin": 166,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
-        "about": "Około",
+        "pattern": "%(count)d %(time_period)s %(approx)s",
+        "approx": "około",
         "time_period": {
           "second": "sekunda",
           "seconds": "sekundy",
@@ -290,14 +497,44 @@
         }
       }
     },
+    "ps": {
+      "name": "Pashto",
+      "nativeName": "پښتو",
+      "family": "Indo-European",
+      "region": ["Afghanistan", "Pakistan"],
+      "unicodeRange": ["\u0021-\u007E", "\u0600-\u06FF", "\uFB50-\uFDFF", "\uFE70-\uFEFF"],
+      "charPerMin": 500,
+      "wordsPerMin": 120,
+      "fuzzyTime": {
+        "pattern": "%(count)d %(time_period)s%(approx)s",
+        "approx": "ډېر",
+        "time_period": {
+          "second": "ثانیه",
+          "seconds": "ثانیه",
+          "minute": "دقیقه",
+          "minutes": "دقیقې",
+          "hour": "ساعت",
+          "hours": "ساعتونه",
+          "day": "ورځ",
+          "days": "ورځونه",
+          "month": "میاشت",
+          "months": "میاشتونه",
+          "year": "کال",
+          "years": "کالونه"
+        }
+      }
+    },
     "pt": {
-      "name":"português",
+      "name": "Portuguese",
+      "nativeName": "Português",
+      "family": "Romance",
+      "region": ["Portugal", "Brazil", "Angola", "Mozambique"],
       "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
       "charPerMin": 913,
       "wordsPerMin": 181,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
-        "about": "Cerca de",
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "Cerca de",
         "time_period": {
           "second": "segundo",
           "seconds": "segundos",
@@ -314,14 +551,71 @@
         }
       }
     },
+    "nan": {
+      "name": "Southern Min (Hokkien, Teochew)",
+      "nativeName": "閩南語 (福建話, 潮州話)",
+      "family": "Sino-Tibetan",
+      "region": ["Taiwan", "Southeast Asia"],
+      "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u3000-\u303F", "\u4E00-\u9FFF", "\u3400-\u4DBF", "\u20000-\u2A6DF", "\uF900-\uFAFF", "\u2F800-\u2FA1F"],
+      "charPerMin": 450,
+      "wordsPerMin": 120,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "約",
+        "time_period": {
+          "second": "秒",
+          "seconds": "秒",
+          "minute": "分鐘",
+          "minutes": "分鐘",
+          "hour": "小時",
+          "hours": "小時",
+          "day": "天",
+          "days": "天",
+          "month": "個月",
+          "months": "個月",
+          "year": "年",
+          "years": "年"
+        }
+      }
+    },
+    "mr": {
+      "name": "Marathi",
+      "nativeName": "मराठी",
+      "family": "Indo-European",
+      "region": ["India"],
+      "unicodeRange": ["\u0021-\u007E", "\u0900-\u097F", "\u1C00-\u1C4F"],
+      "charPerMin": 800,
+      "wordsPerMin": 200,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "अंदाजे",
+        "time_period": {
+          "second": "सेकंद",
+          "seconds": "सेकंद",
+          "minute": "मिनिट",
+          "minutes": "मिनिट",
+          "hour": "तास",
+          "hours": "तास",
+          "day": "दिवस",
+          "days": "दिवस",
+          "month": "महिना",
+          "months": "महिने",
+          "year": "वर्ष",
+          "years": "वर्षे"
+        }
+      }
+    },
     "ru": {
-      "name":"русский язык",
+      "name": "Russian",
+      "nativeName": "Русский",
+      "family": "Indo-European",
+      "region": ["Russia", "Kazakhstan", "Belarus"],
       "unicodeRange": ["\u0021-\u007E", "\u0400-\u052F", "\u2DE0-\u2DFF", "\uA640-\uA69F", "\u1C80-\u1C8F"],
       "charPerMin": 986,
       "wordsPerMin": 184,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d%(time_period)s",
-        "about": "Около",
+        "pattern": "%(approx)s %(count)d%(time_period)s",
+        "approx": "Около",
         "time_period": {
           "second": "Второе",
           "seconds": "секунды",
@@ -339,65 +633,47 @@
       }
     },
     "sl": {
-      "name":"slovenščina",
-      "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
+      "name": "Slovenian",
+      "nativeName": "slovenščina",
+      "family": "Indo-European",
+      "region": ["Slovenia"],
+      "unicodeRange": ["\u0021-\u007E", "\u0080-\u00FF", "\u0100-\u017F", "\u0400-\u04FF"],
       "charPerMin": 885,
       "wordsPerMin": 180,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
-        "about": "Približno",
+        "pattern": "%(count)d %(time_period)s",
+        "approx": null,
         "time_period": {
-          "second": "drugi",
-          "seconds": "sekunde",
+          "second": "sekunda",
+          "seconds": "sekund",
           "minute": "minuta",
-          "minutes": "minute",
+          "minutes": "minut",
           "hour": "ura",
-          "hours": "ure",
+          "hours": "ur",
           "day": "dan",
-          "days": "dnevi",
+          "days": "dni",
           "month": "mesec",
-          "months": "meseci",
+          "months": "mesecev",
           "year": "leto",
-          "years": "leta"
-        }
-      }
-    },
-    "es": {
-      "name":"español",
-      "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
-      "charPerMin": 1025,
-      "wordsPerMin": 218,
-      "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
-        "about": "Unos",
-        "time_period": {
-          "second": "segundo",
-          "seconds": "segundos",
-          "minute": "minuto",
-          "minutes": "minutos",
-          "hour": "hora",
-          "hours": "horas",
-          "day": "día",
-          "days": "días",
-          "month": "mes",
-          "months": "meses",
-          "year": "año",
-          "years": "años"
+          "years": "let"
         }
       }
     },
     "sv": {
-      "name":"Svenska",
-      "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
+      "name": "Swedish",
+      "nativeName": "Svenska",
+      "family": "Germanic",
+      "region": ["Sweden", "Finland"],
+      "unicodeRange": ["\u0021-\u007E", "\u00C0-\u00FF", "\u0100-\u017F", "\u0180-\u024F", "\u1E00-\u1EFF", "\u2C60-\u2C7F", "\uA720-\uA7FF"],
       "charPerMin": 917,
       "wordsPerMin": 199,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
-        "about": "Cirka",
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "Ungefär",
         "time_period": {
-          "second": "andra",
+          "second": "sekund",
           "seconds": "sekunder",
-          "minute": "minutes",
+          "minute": "minut",
           "minutes": "minuter",
           "hour": "timme",
           "hours": "timmar",
@@ -411,26 +687,407 @@
       }
     },
     "tr": {
-      "name":"Türkçe",
-      "unicodeRange": ["\u0021-\u007E", "\u0100-\u024F"],
-      "charPerMin": 1054,
-      "wordsPerMin": 166,
+      "name": "Turkish",
+      "nativeName": "Türkçe",
+      "family": "Turkic",
+      "region": ["Turkey", "Northern Cyprus"],
+      "unicodeRange": ["\u0021-\u007E", "\u00C0-\u00FF", "\u011E", "\u011F", "\u0130", "\u0131", "\u015E", "\u015F", "\u0160", "\u0161", "\u017B", "\u017C", "\u0218", "\u0219", "\u02BC"],
+      "charPerMin": 892,
+      "wordsPerMin": 182,
       "fuzzyTime": {
-        "pattern": "%(about)s %(count)d %(time_period)s",
-        "about": "Yaklaşık",
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "Yaklaşık",
         "time_period": {
-          "second": "ikinci",
-          "seconds": "saniyeler",
+          "second": "saniye",
+          "seconds": "saniye",
           "minute": "dakika",
           "minutes": "dakika",
           "hour": "saat",
-          "hours": "saatler",
+          "hours": "saat",
           "day": "gün",
-          "days": "günler",
+          "days": "gün",
           "month": "ay",
-          "months": "aylar",
+          "months": "ay",
           "year": "yıl",
-          "years": "yıllar"
+          "years": "yıl"
+        }
+      }
+    },
+    "ta": {
+      "name": "Tamil",
+      "nativeName": "தமிழ்",
+      "family": "Dravidian",
+      "region": ["India", "Sri Lanka", "Singapore", "Malaysia"],
+      "unicodeRange": ["\u0021-\u007E", "\u0B80-\u0BFF"],
+      "charPerMin": 600,
+      "wordsPerMin": 150,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "அமைதியாக",
+        "time_period": {
+          "second": "நொடி",
+          "seconds": "நொடிகள்",
+          "minute": "நிமிடம்",
+          "minutes": "நிமிடங்கள்",
+          "hour": "மணி",
+          "hours": "மணிகள்",
+          "day": "நாள்",
+          "days": "நாட்கள்",
+          "month": "மாதம்",
+          "months": "மாதங்கள்",
+          "year": "வருடம்",
+          "years": "வருடங்கள்"
+        }
+      }
+    },
+    "te": {
+      "name": "Telugu",
+      "nativeName": "తెలుగు",
+      "family": "Dravidian",
+      "region": ["India"],
+      "unicodeRange": ["\u0020-\u007F", "\u0C00-\u0C7F"],
+      "charPerMin": 606,
+      "wordsPerMin": 120,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "సుమారు",
+        "time_period": {
+          "second": "సెకన్లు",
+          "seconds": "సెకన్లు",
+          "minute": "నిమిషం",
+          "minutes": "నిమిషాలు",
+          "hour": "గంట",
+          "hours": "గంటలు",
+          "day": "రోజు",
+          "days": "రోజులు",
+          "month": "నెల",
+          "months": "నెలలు",
+          "year": "సంవత్సరం",
+          "years": "సంవత్సరాలు"
+        }
+      }
+    },
+    "th": {
+      "name": "Thai",
+      "nativeName": "ไทย",
+      "family": "Tai-Kadai",
+      "region": ["Thailand"],
+      "unicodeRange": ["\u0021-\u007E", "\u0E00-\u0E7F"],
+      "charPerMin": 780,
+      "wordsPerMin": 200,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "ประมาณ",
+        "time_period": {
+          "second": "วินาที",
+          "seconds": "วินาที",
+          "minute": "นาที",
+          "minutes": "นาที",
+          "hour": "ชั่วโมง",
+          "hours": "ชั่วโมง",
+          "day": "วัน",
+          "days": "วัน",
+          "month": "เดือน",
+          "months": "เดือน",
+          "year": "ปี",
+          "years": "ปี"
+        }
+      }
+    },
+    "vi": {
+      "name": "Vietnamese",
+      "nativeName": "Tiếng Việt",
+      "family": "Austroasiatic",
+      "region": ["Vietnam"],
+      "unicodeRange": ["\u0021-\u007E", "\u00C0-\u1EF9"],
+      "charPerMin": 950,
+      "wordsPerMin": 166,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "Khoảng",
+        "time_period": {
+          "second": "giây",
+          "seconds": "giây",
+          "minute": "phút",
+          "minutes": "phút",
+          "hour": "giờ",
+          "hours": "giờ",
+          "day": "ngày",
+          "days": "ngày",
+          "month": "tháng",
+          "months": "tháng",
+          "year": "năm",
+          "years": "năm"
+        }
+      }
+    },
+    "ur": {
+      "name": "Urdu",
+      "nativeName": "اردو",
+      "family": "Indo-Aryan",
+      "region": ["Pakistan", "India"],
+      "unicodeRange": ["\u0021-\u007E", "\u0600-\u06FF"],
+      "charPerMin": 720,
+      "wordsPerMin": 125,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "تقریباً",
+        "time_period": {
+          "second": "سیکنڈ",
+          "seconds": "سیکنڈ",
+          "minute": "منٹ",
+          "minutes": "منٹ",
+          "hour": "گھنٹہ",
+          "hours": "گھنٹے",
+          "day": "دن",
+          "days": "دن",
+          "month": "مہینہ",
+          "months": "مہینے",
+          "year": "سال",
+          "years": "سال"
+        }
+      }
+    },
+    "wuu": {
+      "name": "Wu (including Shanghainese)",
+      "nativeName": "吴语 (含上海话)",
+      "family": "Sino-Tibetan",
+      "region": ["China"],
+      "unicodeRange": ["\u0021-\u007E", "\u4E00-\u9FFF"],
+      "charPerMin": 255,
+      "wordsPerMin": 158,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "約",
+        "time_period": {
+          "second": "秒",
+          "seconds": "秒",
+          "minute": "分鐘",
+          "minutes": "分鐘",
+          "hour": "小时",
+          "hours": "小时",
+          "day": "日",
+          "days": "日",
+          "month": "月",
+          "months": "月",
+          "year": "年",
+          "years": "年"
+        }
+      }
+    },
+    "yue": {
+      "name": "Yue Chinese",
+      "nativeName": "粤语",
+      "family": "Sino-Tibetan",
+      "region": ["Hong Kong", "Macau", "Guangdong Province"],
+      "unicodeRange": ["\u0021-\u007E", "\u4E00-\u9FFF", "\u3040-\u309F", "\u30A0-\u30FF"],
+      "charPerMin": 255,
+      "wordsPerMin": 158,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "約",
+        "time_period": {
+          "second": "秒",
+          "seconds": "秒",
+          "minute": "分鐘",
+          "minutes": "分鐘",
+          "hour": "小时",
+          "hours": "小时",
+          "day": "日",
+          "days": "日",
+          "month": "月",
+          "months": "月",
+          "year": "年",
+          "years": "年"
+        }
+      }
+    },
+    "zh-CN": {
+      "name": "Chinese (Mandarin)",
+      "nativeName": "中文 (普通话)",
+      "family": "Sino-Tibetan",
+      "region": ["China", "Taiwan", "Singapore"],
+      "unicodeRange": ["\u0021-\u007E", "\u0021-\u007E", "\u4E00-\u9FFF"],
+      "charPerMin": 255,
+      "wordsPerMin": 158,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "約",
+        "time_period": {
+          "second": "秒",
+          "seconds": "秒",
+          "minute": "分鐘",
+          "minutes": "分鐘",
+          "hour": "小时",
+          "hours": "小时",
+          "day": "日",
+          "days": "日",
+          "month": "月",
+          "months": "月",
+          "year": "年",
+          "years": "年"
+        }
+      }
+    },
+    "zh-Hans": {
+      "name": "Chinese (Simplified)",
+      "nativeName": "中文 (简体)",
+      "family": "Sino-Tibetan",
+      "region": ["China", "Singapore"],
+      "unicodeRange": ["\u0021-\u007E", "\u0021-\u007E", "\u4E00-\u9FFF"],
+      "charPerMin": 255,
+      "wordsPerMin": 158,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "约",
+        "time_period": {
+          "second": "秒",
+          "seconds": "秒",
+          "minute": "分钟",
+          "minutes": "分钟",
+          "hour": "小时",
+          "hours": "小时",
+          "day": "日",
+          "days": "日",
+          "month": "月",
+          "months": "月",
+          "year": "年",
+          "years": "年"
+        }
+      }
+    },
+    "zh-Hant": {
+      "name": "Chinese (Traditional)",
+      "nativeName": "中文 (繁體)",
+      "family": "Sino-Tibetan",
+      "region": ["Taiwan", "Hong Kong", "Macau"],
+      "unicodeRange": ["\u0021-\u007E", "\u0021-\u007E", "\u4E00-\u9FFF"],
+      "charPerMin": 255,
+      "wordsPerMin": 158,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "約",
+        "time_period": {
+          "second": "秒",
+          "seconds": "秒",
+          "minute": "分鐘",
+          "minutes": "分鐘",
+          "hour": "小時",
+          "hours": "小時",
+          "day": "天",
+          "days": "天",
+          "month": "月",
+          "months": "月",
+          "year": "年",
+          "years": "年"
+        }
+      }
+    },
+    "zh-HK": {
+      "name": "Chinese (Hong Kong)",
+      "nativeName": "中文 (香港)",
+      "family": "Sino-Tibetan",
+      "region": ["Hong Kong"],
+      "unicodeRange": ["\u0021-\u007E", "\u0021-\u007E", "\u4E00-\u9FFF"],
+      "charPerMin": 255,
+      "wordsPerMin": 158,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "約",
+        "time_period": {
+          "second": "秒",
+          "seconds": "秒",
+          "minute": "分鐘",
+          "minutes": "分鐘",
+          "hour": "小时",
+          "hours": "小时",
+          "day": "日",
+          "days": "日",
+          "month": "月",
+          "months": "月",
+          "year": "年",
+          "years": "年"
+        }
+      }
+    },
+    "zh-MO": {
+      "name": "Chinese (Cantonese, Macau)",
+      "nativeName": "中文 (廣東話, 澳門)",
+      "family": "Sino-Tibetan",
+      "region": ["Macau"],
+      "unicodeRange": ["\u0021-\u007E", "\u0021-\u007E", "\u4E00-\u9FFF", "\u3400-\u4DBF"],
+      "charPerMin": 255,
+      "wordsPerMin": 158,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "約",
+        "time_period": {
+          "second": "秒",
+          "seconds": "秒",
+          "minute": "分鐘",
+          "minutes": "分鐘",
+          "hour": "小时",
+          "hours": "小时",
+          "day": "日",
+          "days": "日",
+          "month": "月",
+          "months": "月",
+          "year": "年",
+          "years": "年"
+        }
+      }
+    },
+    "zh-SG": {
+      "name": "Chinese (Mandarin)",
+      "nativeName": "中文 (普通话)",
+      "family": "Sino-Tibetan",
+      "region": ["Singapore"],
+      "unicodeRange": ["\u0021-\u007E", "\u0021-\u007E", "\u4E00-\u9FFF"],
+      "charPerMin": 255,
+      "wordsPerMin": 158,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "约",
+        "time_period": {
+          "second": "秒",
+          "seconds": "秒",
+          "minute": "分钟",
+          "minutes": "分钟",
+          "hour": "小时",
+          "hours": "小时",
+          "day": "天",
+          "days": "天",
+          "month": "个月",
+          "months": "个月",
+          "year": "年",
+          "years": "年"
+        }
+      }
+    },
+    "zh-TW": {
+      "name": "Chinese (Taiwan)",
+      "nativeName": "中文 (繁體中文)",
+      "family": "Sino-Tibetan",
+      "region": ["Taiwan"],
+      "unicodeRange": ["\u0021-\u007E", "\u0021-\u007E", "\u4E00-\u9FFF"],
+      "charPerMin": 255,
+      "wordsPerMin": 158,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "approx": "約",
+        "time_period": {
+          "second": "秒",
+          "seconds": "秒",
+          "minute": "分鐘",
+          "minutes": "分鐘",
+          "hour": "小時",
+          "hours": "小時",
+          "day": "日",
+          "days": "日",
+          "month": "月",
+          "months": "月",
+          "year": "年",
+          "years": "年"
         }
       }
     }
