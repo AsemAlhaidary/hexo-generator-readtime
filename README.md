@@ -71,12 +71,14 @@ readtime:
       wordsPerMin: 158
 ```
 
-- **defaultTime** - Time unit used for calculating read time. (***NOTE:*** You can only use one of the plural units from inside `fuzzyTime.time_period` list.) Default is "`auto`."
+- **defaultTime** - Time unit used for calculating read time. (See `fuzzyTime.time_period` list for options.) Default is "`auto`."
 - **imgReadTime** - Time user may spend watching the image in *seconds*.
 - **charPerMin** - Number of characters user could read in one *minute*.
 - **wordsPerMin** - Number of **words** user could read in one *minute*.
 
-***NOTE:*** You can add a custom settings for your language by adding the language and your preferred settings like this.
+## Custom Language
+
+You can add a custom language like this.
 
 ``` yaml
 readtime:
@@ -85,12 +87,15 @@ readtime:
       charPerMin: 1500
       wordsPerMin: 300
       fuzzyTime:
+        pattern: %(approx)s %(count)d%(time_period)s
+        approx: appx
         time_period:
           second: sec
           minute: min
 ```
 
 📝 When `defaultTime` is set to "`auto`," it will calculate the fuzzy time based on the least "count" time for `fuzzyTime.time_period`. Example: 590sec becomes "about 6 minutes".
+If you define `defaultTime` as "seconds", "minutes", etc., the time returned is more precise whereas "auto" will provide a very rough estimation.
 
 ## List of supported languages
 
@@ -138,4 +143,4 @@ readtime:
 | Chinese (Taiwan) | zh-TW |
 
 ## Sponsor
-I have created and used this package in my sponsor's [Blog](https://blog.richiebartlett.com/), you can find him at his [Website](https://blog.richiebartlett.com/), also [Github](https://github.com/lorezyra)
+I have created and used this package in my sponsor's [Blog](https://blog.richiebartlett.com/), you can find him at his [Website](https://richiebartlett.com/), also [Github](https://github.com/lorezyra)
