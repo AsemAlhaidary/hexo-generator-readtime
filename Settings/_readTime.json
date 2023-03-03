@@ -701,33 +701,6 @@
         }
       }
     },
-    "tr": {
-      "name": "Turkish",
-      "nativeName": "Türkçe",
-      "family": "Turkic",
-      "region": ["Turkey", "Northern Cyprus"],
-      "unicodeRange": ["\u0021-\u007E", "\u00C0-\u00FF", "\u011E", "\u011F", "\u0130", "\u0131", "\u015E", "\u015F", "\u0160", "\u0161", "\u017B", "\u017C", "\u0218", "\u0219", "\u02BC"],
-      "charPerMin": 892,
-      "wordsPerMin": 182,
-      "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
-        "approx": "Yaklaşık",
-        "time_period": {
-          "second": "saniye",
-          "seconds": "saniye",
-          "minute": "dakika",
-          "minutes": "dakika",
-          "hour": "saat",
-          "hours": "saat",
-          "day": "gün",
-          "days": "gün",
-          "month": "ay",
-          "months": "ay",
-          "year": "yıl",
-          "years": "yıl"
-        }
-      }
-    },
     "ta": {
       "name": "Tamil",
       "nativeName": "தமிழ்",
@@ -806,6 +779,33 @@
           "months": "เดือน",
           "year": "ปี",
           "years": "ปี"
+        }
+      }
+    },
+    "tr": {
+      "name": "Turkish",
+      "nativeName": "Türkçe",
+      "family": "Turkic",
+      "region": ["Turkey", "Northern Cyprus"],
+      "unicodeRange": ["\u0021-\u007E", "\u00C0-\u00FF", "\u011E", "\u011F", "\u0130", "\u0131", "\u015E", "\u015F", "\u0160", "\u0161", "\u017B", "\u017C", "\u0218", "\u0219", "\u02BC"],
+      "charPerMin": 892,
+      "wordsPerMin": 182,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "Yaklaşık",
+        "time_period": {
+          "second": "saniye",
+          "seconds": "saniye",
+          "minute": "dakika",
+          "minutes": "dakika",
+          "hour": "saat",
+          "hours": "saat",
+          "day": "gün",
+          "days": "gün",
+          "month": "ay",
+          "months": "ay",
+          "year": "yıl",
+          "years": "yıl"
         }
       }
     },
