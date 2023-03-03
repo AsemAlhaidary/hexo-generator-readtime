@@ -304,7 +304,7 @@
       "nativeName": "Italiano",
       "family": "Indo-European",
       "region": ["Italy", "San Marino", "Switzerland"],
-            "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
+      "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
       "charPerMin": 950,
       "wordsPerMin": 188,
       "fuzzyTime": {
@@ -435,8 +435,11 @@
       }
     },
     "nl": {
-      "name": "Nederlands",
-      "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
+      "name": "Dutch",
+      "nativeName": "Nederlands",
+      "family": "Indo-European",
+      "region": ["Netherlands", "Belgium", "Suriname"],
+      "unicodeRange": ["\u0021-\u007E", "\u00A1-\u024F", "\u1E00-\u1EFF", "\u2C60-\u2C7F", "\uA720-\uA7FF", "\uAB30-\uAB6F"],
       "charPerMin": 978,
       "wordsPerMin": 202,
       "fuzzyTime": {
@@ -448,13 +451,13 @@
           "minute": "minuut",
           "minutes": "minuten",
           "hour": "uur",
-          "hours": "uur",
+          "hours": "uren",
           "day": "dag",
           "days": "dagen",
           "month": "maand",
           "months": "maanden",
           "year": "jaar",
-          "years": "jaar"
+          "years": "jaren"
         }
       }
     },
