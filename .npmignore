@@ -1,0 +1,17 @@
+# https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+##IDE config
+.vscode
+
+
+## git attributes
+.git*
+
+## project files
+jsconfig.json
+package-lock.json
+
+#linters
+.jscsrc
+.jshintrc
+.eslintrc*
