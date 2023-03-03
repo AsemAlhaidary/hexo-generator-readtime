@@ -27,8 +27,8 @@ readtime:
       charPerMin: 612
       wordsPerMin: 138
       fuzzyTime:
-        pattern: {time_period} %d {about}
-        about: حوالي
+        pattern: %(time_period)s %(count)d %(approx)s
+        approx: حوالي
         time_period:
           second: ثانية
           seconds: ثواني
@@ -48,8 +48,8 @@ readtime:
       charPerMin: 987
       wordsPerMin: 228
       fuzzyTime:
-        pattern: {about} %d {time_period}
-        about: About
+        pattern: %(approx)s %(count)d %(time_period)s
+        approx: About
         time_period:
           second: second
           seconds: seconds
