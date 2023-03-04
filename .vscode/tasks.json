@@ -1,19 +1,24 @@
 {
-    "version": "0.1.0",
+    "version": "2.0.0",
     "command": "node",
-    "isShellCommand": true,
     "args": [
         "--harmony"
     ],
 
     "tasks": [
         {
-            "taskName": "runFile",
-            "isTestCommand": true,
-            "suppressTaskName": true,
-            "showOutput": "always",
+            "label": "runFile",
+            "type": "shell",
+            "command": "node",
+            "args": [
+                "--harmony",
+                "${file}"
+            ],
             "problemMatcher": "$jshint",
-            "args": ["${file}"]
+            "group": {
+                "_id": "test",
+                "isDefault": false
+            }
         }
     ]
 }
