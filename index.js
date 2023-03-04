@@ -1,12 +1,14 @@
 'use strict';
-// (function(exports, require, module, __filename, __dirname, hexo){ // This is what HEXO passes to this function(file)!
 
 var hexo = hexo || {};
+var front = require('hexo-front-matter');
+var fs = require('hexo-fs');
+
 const rtSettings = require('./Settings/_readTime.json');
 //const rtlogic = require('./lib/logic');
 const readTime = require('./lib/readtime');
 
-// debugger; //init HEXO debugger
+debugger; //init HEXO debugger
 
 
 /**
@@ -15,6 +17,13 @@ const readTime = require('./lib/readtime');
  * @param {object} post 
  */
 let readTime_init = function (post) {
+
+    // only update articles in the `_posts` folder
+    if (post.layout != 'post')
+        return post;
+    if (!this.config.render_drafts && post.source.startsWith("_drafts/"))
+        return post;
+
 
     // check language defaults
     let lang = post.lang || hexo.config.language[0] || 'en'; //ISO-639-1 code
@@ -39,17 +48,36 @@ let readTime_init = function (post) {
     let rtObj = new readTime(rtSettings.langProfile[lang], post.content, rtConfig);
     let rtString = rtObj.calculate();
 
-
-    // Update post
-    Object.assign(post, {
+    let rtMetrics = {
         wordCount: rtObj.wordCount,
         charCount: rtObj.charCount,
         imgCount: rtObj.imgCount,
         readTime: rtString,
-    });
+    };
+    Object.assign(post, rtMetrics); //merge metrics with post data
 
-    //TODO: write to markdown file
+    // parse front matter
+    let tmpPost = front.parse(post.raw);
 
+    // only update if value is different
+    if (tmpPost.readTime != rtString) {
+
+        // Update front-matter
+        Object.assign(tmpPost, rtMetrics); //merge new front-matter data
+
+        // only update if time is greater than 0 and `hexo generate`
+        if (rtObj.time > 0 && hexo._isGenerating) {
+
+            // overwrite markdown file
+            fs.writeFile(post.full_source, '---\n' + front.stringify(tmpPost), 'utf-8');
+
+            //show debug info
+            hexo.log.i("Generated: readTime [%s] %j", post.source, rtMetrics);
+        }
+    }
+
+    //update in-memory data
+    return post;
 };
 
 
