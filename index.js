@@ -16,14 +16,27 @@ const readTime = require('./lib/readtime');
  */
 let readTime_init = function (post) {
 
-    let lang = post.lang || hexo.config.language[0] || 'en';
+    // check language defaults
+    let lang = post.lang || hexo.config.language[0] || 'en'; //ISO-639-1 code
 
-    //TODO: get `hexo.config.readtime.defaultTime` (and imgReadTime)
-
-    let rtObj = new readTime(rtSettings.langProfile[lang], post.content, {
+    // option defaults from settings file
+    let rtConfig = {
         defaultTime: rtSettings.defaultTime,
         imgReadTime: rtSettings.imgReadTime
-    });
+    };
+
+    // use `_config.yml` readTime setting if defined. Otherwise, plugin defaults.
+    if (typeof hexo.config.readTime == "object") {
+        Object.assign(rtSettings, hexo.config.readTime);
+
+        // override option defaults if available
+        rtConfig = {
+            defaultTime: hexo.config.readtime.defaultTime || rtSettings.defaultTime,
+            imgReadTime: hexo.config.readtime.imgReadTime || rtSettings.imgReadTime
+        };
+    }
+
+    let rtObj = new readTime(rtSettings.langProfile[lang], post.content, rtConfig);
     let rtString = rtObj.calculate();
 
 
