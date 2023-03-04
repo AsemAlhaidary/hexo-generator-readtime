@@ -5,7 +5,6 @@ var front = require('hexo-front-matter');
 var fs = require('hexo-fs');
 
 const rtSettings = require('./Settings/_readTime.json');
-//const rtlogic = require('./lib/logic');
 const readTime = require('./lib/readtime');
 
 debugger; //init HEXO debugger
