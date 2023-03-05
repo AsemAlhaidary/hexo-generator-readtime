@@ -13,7 +13,8 @@ debugger; //init HEXO debugger
 /**
  * @function readTime_init
  * @description initializes parameters and logic for readTime plugin
- * @param {object} post 
+ * @param {object} post hexo object
+ * @return {object} post updated with readTime metrics
  */
 let readTime_init = function (post) {
 
