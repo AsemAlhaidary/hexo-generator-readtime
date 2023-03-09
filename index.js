@@ -40,8 +40,9 @@ let readTime_init = function (post) {
 
         // override option defaults if available
         rtConfig = {
-            defaultTime: hexo.config.readtime.defaultTime || rtSettings.defaultTime,
-            imgReadTime: hexo.config.readtime.imgReadTime || rtSettings.imgReadTime
+            defaultTime: rtSettings.defaultTime,
+            imgReadTime: rtSettings.imgReadTime,
+            vidReadTime: rtSettings.vidReadTime
         };
     }
 
@@ -52,6 +53,7 @@ let readTime_init = function (post) {
         wordCount: rtObj.wordCount,
         charCount: rtObj.charCount,
         imgCount: rtObj.imgCount,
+        vidCount: rtObj.vidCount,
         readTime: rtString,
     };
     Object.assign(post, rtMetrics); //merge metrics with post data

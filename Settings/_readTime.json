@@ -1,6 +1,7 @@
 {
   "defaultTime": "auto",
   "imgReadTime": 12,
+  "vidReadTime": 60,
   "langProfile": {
     "ar": {
       "name": "Arabic",
