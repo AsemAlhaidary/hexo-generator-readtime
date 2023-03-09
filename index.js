@@ -28,23 +28,19 @@ let readTime_init = function (post) {
     // check language defaults
     let lang = post.lang || hexo.config.language[0] || 'en'; //ISO-639-1 code
 
-    // option defaults from settings file
-    let rtConfig = {
-        defaultTime: rtSettings.defaultTime,
-        imgReadTime: rtSettings.imgReadTime
-    };
-
     // use `_config.yml` readTime setting if defined. Otherwise, plugin defaults.
     if (typeof hexo.config.readTime == "object") {
+
         Object.assign(rtSettings, hexo.config.readTime);
 
-        // override option defaults if available
-        rtConfig = {
-            defaultTime: rtSettings.defaultTime,
-            imgReadTime: rtSettings.imgReadTime,
-            vidReadTime: rtSettings.vidReadTime
-        };
     }
+
+    // override option defaults if provided
+    let rtConfig = {
+        defaultTime: rtSettings.defaultTime,
+        imgReadTime: rtSettings.imgReadTime,
+        vidReadTime: rtSettings.vidReadTime
+    };
 
     let rtObj = new readTime(rtSettings.langProfile[lang], post.content, rtConfig);
     let rtString = rtObj.calculate();
