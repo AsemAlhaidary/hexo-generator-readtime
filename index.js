@@ -42,6 +42,12 @@ let readTime_init = function (post) {
         vidReadTime: rtSettings.vidReadTime
     };
 
+    // confirm detected lang code exist in settings
+    if (!rtSettings.langProfile.hasOwnProperty(lang)){
+        //language profile not found. Default back to English
+        lang = "en";
+    }
+
     let rtObj = new readTime(rtSettings.langProfile[lang], post.content, rtConfig);
     let rtString = rtObj.calculate();
 

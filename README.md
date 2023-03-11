@@ -42,7 +42,7 @@ readtime: ## plugin config. Only define this if you need to override the built-i
       nativeName: "myLanguage" ## name of your custom language as written in the language's native text
       family: "Earth-Moon" ## origins of the language.
       region: ["Earth", "Moon"] ## regions where this language is used
-      unicodeRange: ["\u0021-\u007E"] ## array of unicode values that represent the language's native text
+      unicodeRange: ["\u0021-\u007E"] ## array of unicode values that represent the language's native text. See https://www.unicode.org/charts/
       charPerMin: 999 ## Number of characters user could read in one *minute*
       wordsPerMin: 333 ## Number of **words** user could read in one *minute*
       fuzzyTime: ## string object for representations of how time units are written 
@@ -105,20 +105,20 @@ readtime:
       wordsPerMin: 228
       fuzzyTime:
         pattern: %(approx)s %(count)d %(time_period)s
-        approx: About
+        approx: "About"
         time_period:
-          second: second
-          seconds: seconds
-          minute: minute
-          minutes: minutes
-          hour: hour
-          hours: hours
-          day: day
-          days: days
-          month: month
-          months: months
-          year: year
-          years: years
+          second: "second"
+          seconds: "seconds"
+          minute: "minute"
+          minutes: "minutes"
+          hour: "hour"
+          hours: "hours"
+          day: "day"
+          days: "days"
+          month: "month"
+          months: "months"
+          year: "year"
+          years: "years"
     jp:
       charPerMin: 357
       wordsPerMin: 193
@@ -139,10 +139,10 @@ readtime:
       wordsPerMin: 300
       fuzzyTime:
         pattern: %(approx)s %(count)d%(time_period)s
-        approx: appx
+        approx: "appx"
         time_period:
-          second: sec
-          minute: min
+          second: "sec"
+          minute: "min"
 ```
 
 ## List of supported languages
