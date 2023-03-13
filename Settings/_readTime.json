@@ -597,6 +597,60 @@
         }
       }
     },
+    "nb": {
+      "name": "Norwegian Norsk",
+      "nativeName": "Bokmål",
+      "family": "Germanic",
+      "region": ["Norway"],
+      "unicodeRange": ["\u0021-\u007E", "\u00C0-\u017E"],
+      "charPerMin": 973,
+      "wordsPerMin": 204,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "Omtrent",
+        "time_period": {
+          "second": "sekund",
+          "seconds": "sekunder",
+          "minute": "minutt",
+          "minutes": "minutter",
+          "hour": "time",
+          "hours": "timer",
+          "day": "dag",
+          "days": "dager",
+          "month": "måned",
+          "months": "måneder",
+          "year": "år",
+          "years": "år"
+        }
+      }
+    },
+    "nn": {
+      "name": "Norwegian Nynorsk",
+      "nativeName": "nynorsk",
+      "family": "Indo-European",
+      "region": ["Norway"],
+      "unicodeRange": ["\u0021-\u007E", "\u00A1-\u017F", "\u1E00-\u1EFF", "\u2C60-\u2C7F", "\u3000-\u303F", "\u4E00-\u9FFF"],
+      "charPerMin": 900,
+      "wordsPerMin": 199,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "approx": "Omlag",
+        "time_period": {
+          "second": "sekund",
+          "seconds": "sekund",
+          "minute": "minutt",
+          "minutes": "minutt",
+          "hour": "time",
+          "hours": "timar",
+          "day": "dag",
+          "days": "dagar",
+          "month": "månad",
+          "months": "månader",
+          "year": "år",
+          "years": "år"
+        }
+      }
+    },
     "mr": {
       "name": "Marathi",
       "nativeName": "मराठी",
@@ -1057,7 +1111,7 @@
       }
     },
     "zh-SG": {
-      "name": "Chinese (Mandarin)",
+      "name": "Chinese (Singapore)",
       "nativeName": "中文 (普通话)",
       "family": "Sino-Tibetan",
       "region": ["Singapore"],

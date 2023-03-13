@@ -1,6 +1,6 @@
 # hexo-generator-readtime
 
-HEXO package that provides analytics on the read time to review the post. *Supports 41 languages!* Can add or override langProfile defaults.
+HEXO package that provides analytics on the read time to review the post. *Supports 42 languages!* Can add or override langProfile defaults.
 
 ## Install
 
@@ -8,8 +8,12 @@ HEXO package that provides analytics on the read time to review the post. *Suppo
 $ npm install hexo-generator-readtime
 ```
 
-📝 When `defaultTime` is set to "`auto`," it will calculate the fuzzy time based on the least "count" time for `fuzzyTime.time_period`. Example: 590sec becomes "about 6 minutes".
+📝 When `defaultTime` is set to "`auto`," it will calculate the fuzzy time based on the least "count" time for `fuzzyTime.time_period`. Example: 578sec becomes "about 10 minutes".
 If you define `defaultTime` as "seconds", "minutes", etc., the time returned is more precise whereas "auto" will provide a very rough estimation.
+
+## GitHub
+
+Find on GitHub here: https://github.com/AsemAlhaidary/hexo-generator-readtime
 
 ## How to use
 
@@ -147,48 +151,56 @@ readtime:
 
 ## List of supported languages
 
-| Language | [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code |
-| --- | --- |
-| Arabic | ar |
-| Bengali | bn |
-| German | de |
-| **English** | en |
-| Spanish | es |
-| Persian (Farsi) | fa |
-| Finnish | fi |
-| French | fr |
-| Gujarati | gu |
-| Hebrew | he |
-| Hindi | hi |
-| Italian | it |
-| Jin | jin |
-| Japanese | jp |
-| Javanese | jv |
-| Korean | kr |
-| Nederlands | nl |
-| Punjabi | pa |
-| Polish | pl |
-| Pashto | ps |
-| Portuguese | pt |
-| Southern Min (Hokkien, Teochew) | nan |
-| Marathi | mr |
-| Russian | ru |
-| Slovenian | sl |
-| Swedish | sv |
-| Tamil | ta |
-| Telugu | te |
-| Thai | th |
-| Turkish | tr |
-| Vietnamese | vi |
-| Urdu | ur |
-| Yue Chinese | yue |
-| Chinese (Mandarin) | zh-CN |
-| Chinese (Simplified) | zh-Hans |
-| Chinese (Traditional) | zh-Hant |
-| Chinese (Hong Kong) | zh-HK |
-| Chinese (Cantonese, Macau) | zh-MO |
-| Chinese (Singapore) | zh-SG |
-| Chinese (Taiwan) | zh-TW |
+| Language | native text | [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code |
+| --- | --- | --- |
+| Arabic | العربية | ar |
+| Bengali | বাংলা | bn |
+| German | Deutsch | de |
+| **English** | English | en |
+| Spanish | Español | es |
+| Persian (Farsi) | فارسی | fa |
+| Finnish | suomi | fi |
+| French | Français | fr |
+| Gujarati | ગુજરાતી | gu |
+| Hebrew | עִבְרִית | he |
+| Hindi | हिन्दी | hi |
+| Italian | Italiano | it |
+| Jin | 晋语 | jin |
+| Japanese | 日本語 | jp |
+| Javanese | Basa Jawa | jv |
+| Korean | 한국어 | kr |
+| Dutch | Nederlands | nl |
+| Punjabi | ਪੰਜਾਬੀ | pa |
+| Polish | polski | pl |
+| Pashto | پښتو | ps |
+| Portuguese | Português | pt |
+| Southern Min (Hokkien, Teochew) | 閩南語 (福建話, 潮州話) | nan |
+| Norwegian Norsk | Bokmål | nb |
+| Norwegian Nynorsk | nynorsk | nn |
+| Marathi | मराठी | mr |
+| Russian | Русский | ru |
+| Slovenian | slovenščina | sl |
+| Swedish | Svenska | sv |
+| Tamil | தமிழ் | ta |
+| Telugu | తెలుగు | te |
+| Thai | ไทย | th |
+| Turkish | Türkçe | tr |
+| Vietnamese | Tiếng Việt | vi |
+| Urdu | اردو | ur |
+| Yue Chinese | 粤语 | yue |
+| Wu (including Shanghainese) | 吴语 (含上海话) | wuu |
+| Chinese (Mandarin) | 中文 (普通话) | zh-CN |
+| Chinese (Simplified) | 中文 (简体) | zh-Hans |
+| Chinese (Traditional) | 中文 (繁體) | zh-Hant |
+| Chinese (Hong Kong) | 中文 (香港) | zh-HK |
+| Chinese (Cantonese, Macau) | 中文 (廣東話, 澳門) | zh-MO |
+| Chinese (Singapore) | 中文 (普通话) | zh-SG |
+| Chinese (Taiwan) | 中文 (繁體中文) | zh-TW |
+
+## Don't see your language here?
+
+Please submit an issue to request your language to be added. It helps if you can suggest the profile details too. Otherwise, I need to research it and that can take time.
 
 ## Sponsor
+
 This package is sponsored by [LoreZyra](https://blog.richiebartlett.com/), you can find him at his [Website](https://richiebartlett.com/), also [Github](https://github.com/lorezyra)
