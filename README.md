@@ -11,10 +11,6 @@ $ npm install hexo-generator-readtime
 📝 When `defaultTime` is set to "`auto`," it will calculate the fuzzy time based on the least "count" time for `fuzzyTime.time_period`. Example: 578sec becomes "about 10 minutes".
 If you define `defaultTime` as "seconds", "minutes", etc., the time returned is more precise whereas "auto" will provide a very rough estimation.
 
-## GitHub
-
-Find on GitHub here: https://github.com/AsemAlhaidary/hexo-generator-readtime
-
 ## How to use
 
 After you have installed this plugin, it will run anytime you run `hexo server` or `hexo generate`.
@@ -199,7 +195,7 @@ readtime:
 
 ## Don't see your language here?
 
-Please submit an issue to request your language to be added. It helps if you can suggest the profile details too. Otherwise, I need to research it and that can take time.
+Please submit an issue to [request your language](https://github.com/AsemAlhaidary/hexo-generator-readtime/issues/new/choose) to be added. It helps if you can suggest the profile details too. Otherwise, I need to research it and that can take time.
 
 ## Sponsor
 
