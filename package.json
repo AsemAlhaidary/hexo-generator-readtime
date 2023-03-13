@@ -1,16 +1,29 @@
 {
   "name": "hexo-generator-readtime",
-  "version": "1.1.2",
-  "description": "Generates a word counting, character counting, images counting and read time counting, then updates the front-matter of the posts with the correct values.",
+  "version": "1.2.0",
+  "description": "HEXO package that provides analytics on the read time to review a post. Generates word, character, image, and video counts in the front-matter of the markdown file. Plus provides read-time estimates.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "LoreZyra",
+  "license": "MIT",
+  "homepage": "https://github.com/AsemAlhaidary/hexo-generator-readtime",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsemAlhaidary/hexo-generator-readtime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AsemAlhaidary/hexo-generator-readtime/issues/new/choose"
+  },
+  "keywords": ["HEXO", "hexo.io", "readtime", "read analytics", "hexo readtime"],
   "dependencies": {
     "hexo-front-matter": "^4.0.0",
     "hexo-fs": "^4.1.1",
     "sprintf-js": "^1.1.2"
+  },
+  "engines": {
+    "node": "19.6.0",
+    "npm": "9.5.0"
   }
 }
