@@ -166,7 +166,7 @@ readtime:
 | Hindi | हिन्दी | hi |
 | Italian | Italiano | it |
 | Jin | 晋语 | jin |
-| Japanese | 日本語 | jp |
+| Japanese | 日本語 | ja |
 | Javanese | Basa Jawa | jv |
 | Korean | 한국어 | kr |
 | Dutch | Nederlands | nl |
