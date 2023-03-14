@@ -1,7 +1,7 @@
 [![NPM version](https://badge.fury.io/js/hexo.svg)](https://www.npmjs.com/package/hexo)
-[![Required Node version](https://img.shields.io/node/v/hexo)
+![Required Node version](https://img.shields.io/node/v/hexo)
 
-[![GitHub Stars](https://img.shields.io/github/stars/AsemAlhaidary/hexo-generator-readtime?style=for-the-badge&color=0e83cd&logo=github)
+![GitHub Stars](https://img.shields.io/github/stars/AsemAlhaidary/hexo-generator-readtime?style=for-the-badge&color=0e83cd&logo=github)
 [![GitHub Forks](https://img.shields.io/github/forks/AsemAlhaidary/hexo-generator-readtime?style=for-the-badge&color=0e83cd&logo=github)](https://github.com/AsemAlhaidary/hexo-generator-readtime)
 [![npm stats](https://img.shields.io/npm/dm/hexo-generator-readtime?style=for-the-badge&color=0e83cd&label=npm%20downloads&logo=npm)](https://www.npmjs.com/package/hexo-generator-readtime)
 
