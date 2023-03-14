@@ -1,6 +1,10 @@
+[![NPM version](https://badge.fury.io/js/hexo.svg)](https://www.npmjs.com/package/hexo)
+![Required Node version](https://img.shields.io/node/v/hexo)
+[![GitHub Stars](https://img.shields.io/github/stars/AsemAlhaidary/hexo-generator-readtime?style=for-the-badge&color=0e83cd&logo=github) [![GitHub Forks](https://img.shields.io/github/forks/AsemAlhaidary/hexo-generator-readtime?style=for-the-badge&color=0e83cd&logo=github)](https://github.com/AsemAlhaidary/hexo-generator-readtime) [![npm stats](https://img.shields.io/npm/dm/hexo-generator-readtime?style=for-the-badge&color=0e83cd&label=npm%20downloads&logo=npm)](https://www.npmjs.com/package/hexo-generator-readtime)
+
 # hexo-generator-readtime
 
-HEXO package that provides analytics on the read time to review the post. *Supports 42 languages!* Can add or override langProfile defaults.
+[HEXO](https://github.com/hexojs/hexo) package that provides analytics on the read time to review the post. *Supports 42 languages!* Can add or override langProfile defaults.
 
 ## Install
 
@@ -200,3 +204,5 @@ Please submit an issue to [request your language](https://github.com/AsemAlhaida
 ## Sponsor
 
 This package is sponsored by [LoreZyra](https://blog.richiebartlett.com/), you can find him at his [Website](https://richiebartlett.com/), also [Github](https://github.com/lorezyra)
+
+![LoreZyra](https://2022.blog.richiebartlett.com/img/logoImage.svg)
