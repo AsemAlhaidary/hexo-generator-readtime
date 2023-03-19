@@ -5,9 +5,9 @@ var front = require('hexo-front-matter');
 var fs = require('hexo-fs');
 
 const rtSettings = require('./Settings/_readTime.json');
-const readTime = require('./lib/readtime');
+var readTime = require('./lib/readtime');
 
-debugger; //init HEXO debugger
+//debugger; //init debugger
 
 
 /**
@@ -47,7 +47,7 @@ let readTime_init = function (post) {
         //language profile not found. Default back to English
         lang = "en";
 
-        hexo.log.i("Language Profile \"%s\" not found for %s. Defaulting to English.", lang, post.title);
+        hexo.log.i("Language Profile \"%s\" not found for [%s]. Defaulting to English.", lang, post.title);
     }
 
     let rtObj = new readTime(rtSettings.langProfile[lang], post.content, rtConfig);
@@ -58,8 +58,10 @@ let readTime_init = function (post) {
         charCount: rtObj.charCount,
         imgCount: rtObj.imgCount,
         vidCount: rtObj.vidCount,
+        wsCount: rtObj.wsCount,
         readTime: rtString,
     };
+
     Object.assign(post, rtMetrics); //merge metrics with post data
 
     // parse front matter

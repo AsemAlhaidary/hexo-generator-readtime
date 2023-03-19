@@ -30,6 +30,7 @@ It updates the front-matter of your posts to include the analytics data. The fol
 - imgCount
 - vidCount
 - wordCount
+- wsCount
 - charCount
 
 👉🏻 Note that it only reads the posts from the `/source/_posts/` folder. You can reference these values in your EJS template files from the object `post`. For example: `<%= post.readTime %>`. This plugin updates both in-memory `post` object and the markdown file.
