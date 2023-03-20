@@ -44,10 +44,10 @@ let readTime_init = function (post) {
 
     // confirm detected lang code exist in settings
     if (!rtSettings.langProfile.hasOwnProperty(lang)){
+        hexo.log.i("Language Profile \"%s\" not found for [%s]. Defaulting to English.", lang, post.title);
+        
         //language profile not found. Default back to English
         lang = "en";
-
-        hexo.log.i("Language Profile \"%s\" not found for [%s]. Defaulting to English.", lang, post.title);
     }
 
     let rtObj = new readTime(rtSettings.langProfile[lang], post.content, rtConfig);
