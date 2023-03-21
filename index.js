@@ -68,7 +68,7 @@ let readTime_init = function (post) {
     let tmpPost = front.parse(post.raw);
 
     // only update if value is different
-    if (tmpPost.readTime != rtString) {
+    if (tmpPost.readTime != rtString || tmpPost.charCount != rtObj.charCount) {
 
         // Update front-matter
         Object.assign(tmpPost, rtMetrics); //merge new front-matter data
