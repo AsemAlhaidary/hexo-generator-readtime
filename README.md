@@ -7,7 +7,7 @@
 
 # hexo-generator-readtime
 
-[HEXO](https://github.com/hexojs/hexo) package that provides analytics on the read time to review the post. *Supports 42 languages!* Can add or override langProfile defaults.
+[HEXO](https://github.com/hexojs/hexo) package that provides analytics on the read time to review the post. *Supports 43 languages!* Can add or override langProfile defaults.
 
 ## Install
 
@@ -185,6 +185,7 @@ readtime:
 | Norwegian Nynorsk | nynorsk | nn |
 | Marathi | मराठी | mr |
 | Russian | Русский | ru |
+| Sinhala | සිංහල | si |
 | Slovenian | slovenščina | sl |
 | Swedish | Svenska | sv |
 | Tamil | தமிழ் | ta |

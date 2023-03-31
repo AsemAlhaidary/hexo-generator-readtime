@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "hexo",
+    "eslint:recommended"
+  ],
+  "root": true,
+  "commonjs": true,
+  "es6": true
+}

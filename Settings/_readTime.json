@@ -12,9 +12,9 @@
       "charPerMin": 612,
       "wordsPerMin": 138,
       "fuzzyTime": {
-        "pattern": "%(time_period)s %(count)d %(approx)s",
+        "pattern": "%(time_unit)s %(count)d %(approx)s",
         "approx": "حوالي",
-        "time_period": {
+        "time_unit": {
           "second": "ثانية",
           "seconds": "ثواني",
           "minute": "دقيقة",
@@ -39,9 +39,9 @@
       "charPerMin": 616,
       "wordsPerMin": 150,
       "fuzzyTime": {
-        "pattern": "%(count)d %(time_period)s %(approx)s",
+        "pattern": "%(count)d %(time_unit)s %(approx)s",
         "approx": "প্রায়",
-        "time_period": {
+        "time_unit": {
           "second": "সেকেন্ড",
           "seconds": "সেকেন্ড",
           "minute": "মিনিট",
@@ -66,9 +66,9 @@
       "charPerMin": 920,
       "wordsPerMin": 179,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "Ungefähr",
-        "time_period": {
+        "time_unit": {
           "second": "sekunde",
           "seconds": "sekunden",
           "minute": "minute",
@@ -93,9 +93,9 @@
       "charPerMin": 987,
       "wordsPerMin": 228,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "About",
-        "time_period": {
+        "time_unit": {
           "second": "second",
           "seconds": "seconds",
           "minute": "minute",
@@ -120,9 +120,9 @@
       "charPerMin": 1025,
       "wordsPerMin": 218,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "Unos",
-        "time_period": {
+        "time_unit": {
           "second": "segundo",
           "seconds": "segundos",
           "minute": "minuto",
@@ -147,9 +147,9 @@
       "charPerMin": 700,
       "wordsPerMin": 150,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "حدود",
-        "time_period": {
+        "time_unit": {
           "second": "ثانیه",
           "seconds": "ثانیه",
           "minute": "دقیقه",
@@ -174,9 +174,9 @@
       "charPerMin": 1078,
       "wordsPerMin": 161,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "Noin",
-        "time_period": {
+        "time_unit": {
           "second": "toinen",
           "seconds": "sekuntia",
           "minute": "minuutti",
@@ -201,9 +201,9 @@
       "charPerMin": 998,
       "wordsPerMin": 195,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "Environ",
-        "time_period": {
+        "time_unit": {
           "second": "seconde",
           "seconds": "secondes",
           "minute": "minute",
@@ -228,9 +228,9 @@
       "charPerMin": 550,
       "wordsPerMin": 105,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "સમાંતર",
-        "time_period": {
+        "time_unit": {
           "second": "સેકન્ડ",
           "seconds": "સેકન્ડો",
           "minute": "મિનિટ",
@@ -255,9 +255,9 @@
       "charPerMin": 763,
       "wordsPerMin": 199,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "כְּ",
-        "time_period": {
+        "time_unit": {
           "second": "שְׁנִיָּה",
           "seconds": "שְׁנִיּוֹת",
           "minute": "דַקָה",
@@ -282,9 +282,9 @@
       "charPerMin": 567,
       "wordsPerMin": 127,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "अनुमानित",
-        "time_period": {
+        "time_unit": {
           "second": "सेकंड",
           "seconds": "सेकंड",
           "minute": "मिनट",
@@ -309,9 +309,9 @@
       "charPerMin": 950,
       "wordsPerMin": 188,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "Circa",
-        "time_period": {
+        "time_unit": {
           "second": "secondo",
           "seconds": "secondi",
           "minute": "minuto",
@@ -336,9 +336,9 @@
       "charPerMin": 300,
       "wordsPerMin": 150,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "约",
-        "time_period": {
+        "time_unit": {
           "second": "秒",
           "seconds": "秒",
           "minute": "分钟",
@@ -363,9 +363,9 @@
       "charPerMin": 357,
       "wordsPerMin": 193,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "残り",
-        "time_period": {
+        "time_unit": {
           "second": "秒間",
           "seconds": "秒間",
           "minute": "分間",
@@ -390,9 +390,9 @@
       "charPerMin": 669,
       "wordsPerMin": 125,
       "fuzzyTime": {
-        "pattern": "%(approx)%(count)d %(time_period)s",
+        "pattern": "%(approx)%(count)d %(time_unit)s",
         "approx": "",
-        "time_period": {
+        "time_unit": {
           "second": "detik",
           "seconds": "detik",
           "minute": "menit",
@@ -417,9 +417,9 @@
       "charPerMin": 285,
       "wordsPerMin": 200,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "남은",
-        "time_period": {
+        "time_unit": {
           "second": "초간",
           "seconds": "초간",
           "minute": "분",
@@ -444,9 +444,9 @@
       "charPerMin": 978,
       "wordsPerMin": 202,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "Ongeveer",
-        "time_period": {
+        "time_unit": {
           "second": "seconde",
           "seconds": "seconden",
           "minute": "minuut",
@@ -471,9 +471,9 @@
       "charPerMin": 735,
       "wordsPerMin": 130,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "ਕਰੀਬ",
-        "time_period": {
+        "time_unit": {
           "second": "ਸਕਿੰਟ",
           "seconds": "ਸਕਿੰਟ",
           "minute": "ਮਿੰਟ",
@@ -498,9 +498,9 @@
       "charPerMin": 885,
       "wordsPerMin": 166,
       "fuzzyTime": {
-        "pattern": "%(count)d %(time_period)s %(approx)s",
+        "pattern": "%(count)d %(time_unit)s %(approx)s",
         "approx": "około",
-        "time_period": {
+        "time_unit": {
           "second": "sekunda",
           "seconds": "sekundy",
           "minute": "minuta",
@@ -525,9 +525,9 @@
       "charPerMin": 500,
       "wordsPerMin": 120,
       "fuzzyTime": {
-        "pattern": "%(count)d %(time_period)s%(approx)s",
+        "pattern": "%(count)d %(time_unit)s%(approx)s",
         "approx": "ډېر",
-        "time_period": {
+        "time_unit": {
           "second": "ثانیه",
           "seconds": "ثانیه",
           "minute": "دقیقه",
@@ -552,9 +552,9 @@
       "charPerMin": 913,
       "wordsPerMin": 181,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "Cerca de",
-        "time_period": {
+        "time_unit": {
           "second": "segundo",
           "seconds": "segundos",
           "minute": "minuto",
@@ -579,9 +579,9 @@
       "charPerMin": 450,
       "wordsPerMin": 120,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "約",
-        "time_period": {
+        "time_unit": {
           "second": "秒",
           "seconds": "秒",
           "minute": "分鐘",
@@ -606,9 +606,9 @@
       "charPerMin": 973,
       "wordsPerMin": 204,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "Omtrent",
-        "time_period": {
+        "time_unit": {
           "second": "sekund",
           "seconds": "sekunder",
           "minute": "minutt",
@@ -633,9 +633,9 @@
       "charPerMin": 900,
       "wordsPerMin": 199,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "Omlag",
-        "time_period": {
+        "time_unit": {
           "second": "sekund",
           "seconds": "sekund",
           "minute": "minutt",
@@ -660,9 +660,9 @@
       "charPerMin": 800,
       "wordsPerMin": 200,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "अंदाजे",
-        "time_period": {
+        "time_unit": {
           "second": "सेकंद",
           "seconds": "सेकंद",
           "minute": "मिनिट",
@@ -687,9 +687,9 @@
       "charPerMin": 986,
       "wordsPerMin": 184,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d%(time_period)s",
+        "pattern": "%(approx)s %(count)d%(time_unit)s",
         "approx": "Около",
-        "time_period": {
+        "time_unit": {
           "second": "Второе",
           "seconds": "секунды",
           "minute": "минута",
@@ -705,6 +705,33 @@
         }
       }
     },
+    "si": {
+      "name": "Sinhala",
+      "nativeName": "සිංහල",
+      "family": "Indo-European",
+      "region": ["Sri Lanka"],
+      "unicodeRange": ["\u0021-\u007E", "\u0D80-\u0DFF"],
+      "charPerMin": 700,
+      "wordsPerMin": 90,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(time_unit)d %(count) යි",
+        "approx": "අතර",
+        "time_unit": {
+          "second": "තත්පර",
+          "seconds": "තත්පර",
+          "minute": "මිනිත්තු",
+          "minutes": "මිනිත්තු",
+          "hour": "පැය",
+          "hours": "පැය",
+          "day": "දිනය",
+          "days": "දින",
+          "month": "මාසය",
+          "months": "මාස",
+          "year": "වර්ෂය",
+          "years": "වර්ෂ"
+        }
+      }
+    },
     "sl": {
       "name": "Slovenian",
       "nativeName": "slovenščina",
@@ -714,9 +741,9 @@
       "charPerMin": 885,
       "wordsPerMin": 180,
       "fuzzyTime": {
-        "pattern": "%(count)d %(time_period)s",
+        "pattern": "%(count)d %(time_unit)s",
         "approx": null,
-        "time_period": {
+        "time_unit": {
           "second": "sekunda",
           "seconds": "sekund",
           "minute": "minuta",
@@ -741,9 +768,9 @@
       "charPerMin": 917,
       "wordsPerMin": 199,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "Ungefär",
-        "time_period": {
+        "time_unit": {
           "second": "sekund",
           "seconds": "sekunder",
           "minute": "minut",
@@ -768,9 +795,9 @@
       "charPerMin": 600,
       "wordsPerMin": 150,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "அமைதியாக",
-        "time_period": {
+        "time_unit": {
           "second": "நொடி",
           "seconds": "நொடிகள்",
           "minute": "நிமிடம்",
@@ -795,9 +822,9 @@
       "charPerMin": 606,
       "wordsPerMin": 120,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "సుమారు",
-        "time_period": {
+        "time_unit": {
           "second": "సెకన్లు",
           "seconds": "సెకన్లు",
           "minute": "నిమిషం",
@@ -822,9 +849,9 @@
       "charPerMin": 780,
       "wordsPerMin": 200,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "ประมาณ",
-        "time_period": {
+        "time_unit": {
           "second": "วินาที",
           "seconds": "วินาที",
           "minute": "นาที",
@@ -849,9 +876,9 @@
       "charPerMin": 892,
       "wordsPerMin": 182,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "Yaklaşık",
-        "time_period": {
+        "time_unit": {
           "second": "saniye",
           "seconds": "saniye",
           "minute": "dakika",
@@ -876,9 +903,9 @@
       "charPerMin": 950,
       "wordsPerMin": 166,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "Khoảng",
-        "time_period": {
+        "time_unit": {
           "second": "giây",
           "seconds": "giây",
           "minute": "phút",
@@ -903,9 +930,9 @@
       "charPerMin": 720,
       "wordsPerMin": 125,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(count)d %(time_period)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "تقریباً",
-        "time_period": {
+        "time_unit": {
           "second": "سیکنڈ",
           "seconds": "سیکنڈ",
           "minute": "منٹ",
@@ -930,9 +957,9 @@
       "charPerMin": 255,
       "wordsPerMin": 158,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "約",
-        "time_period": {
+        "time_unit": {
           "second": "秒",
           "seconds": "秒",
           "minute": "分鐘",
@@ -957,9 +984,9 @@
       "charPerMin": 255,
       "wordsPerMin": 158,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "約",
-        "time_period": {
+        "time_unit": {
           "second": "秒",
           "seconds": "秒",
           "minute": "分鐘",
@@ -984,9 +1011,9 @@
       "charPerMin": 255,
       "wordsPerMin": 158,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "約",
-        "time_period": {
+        "time_unit": {
           "second": "秒",
           "seconds": "秒",
           "minute": "分鐘",
@@ -1011,9 +1038,9 @@
       "charPerMin": 255,
       "wordsPerMin": 158,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "约",
-        "time_period": {
+        "time_unit": {
           "second": "秒",
           "seconds": "秒",
           "minute": "分钟",
@@ -1038,9 +1065,9 @@
       "charPerMin": 255,
       "wordsPerMin": 158,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "約",
-        "time_period": {
+        "time_unit": {
           "second": "秒",
           "seconds": "秒",
           "minute": "分鐘",
@@ -1065,9 +1092,9 @@
       "charPerMin": 255,
       "wordsPerMin": 158,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "約",
-        "time_period": {
+        "time_unit": {
           "second": "秒",
           "seconds": "秒",
           "minute": "分鐘",
@@ -1092,9 +1119,9 @@
       "charPerMin": 255,
       "wordsPerMin": 158,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "約",
-        "time_period": {
+        "time_unit": {
           "second": "秒",
           "seconds": "秒",
           "minute": "分鐘",
@@ -1119,9 +1146,9 @@
       "charPerMin": 255,
       "wordsPerMin": 158,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "约",
-        "time_period": {
+        "time_unit": {
           "second": "秒",
           "seconds": "秒",
           "minute": "分钟",
@@ -1146,9 +1173,9 @@
       "charPerMin": 255,
       "wordsPerMin": 158,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_period)s",
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
         "approx": "約",
-        "time_period": {
+        "time_unit": {
           "second": "秒",
           "seconds": "秒",
           "minute": "分鐘",
