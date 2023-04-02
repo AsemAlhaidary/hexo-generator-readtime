@@ -15,7 +15,7 @@
 $ npm install hexo-generator-readtime
 ```
 
-📝 When `defaultTime` is set to "`auto`," it will calculate the fuzzy time based on the least "count" time for `fuzzyTime.time_period`. Example: 578sec becomes "about 10 minutes".
+📝 When `defaultTime` is set to "`auto`," it will calculate the fuzzy time based on the least "count" time for `fuzzyTime.time_unit`. Example: 578sec becomes "about 10 minutes".
 If you define `defaultTime` as "seconds", "minutes", etc., the time returned is more precise whereas "auto" will provide a very rough estimation.
 
 ## How to use
@@ -56,9 +56,9 @@ readtime: ## plugin config. Only define this if you need to override the built-i
       charPerMin: 999 ## Number of characters user could read in one *minute*
       wordsPerMin: 333 ## Number of **words** user could read in one *minute*
       fuzzyTime: ## string object for representations of how time units are written 
-        pattern: %(time_period)s %(count)d%(approx)s ## sprintf() string pattern for how to write the text
+        pattern: %(time_unit)s %(count)d%(approx)s ## sprintf() string pattern for how to write the text
         approx: apx ## text to represent approximate time as a word. If no such word exist, use `""` a closed string as the value
-        time_period: ## string object to define how each time unit is written in the language's native text
+        time_unit: ## string object to define how each time unit is written in the language's native text
           second: sec
           seconds: secs
           minute: min
@@ -93,9 +93,9 @@ readtime:
       charPerMin: 612
       wordsPerMin: 138
       fuzzyTime:
-        pattern: %(time_period)s %(count)d %(approx)s
+        pattern: %(time_unit)s %(count)d %(approx)s
         approx: حوالي
-        time_period:
+        time_unit:
           second: ثانية
           seconds: ثواني
           minute: دقيقة
@@ -114,9 +114,9 @@ readtime:
       charPerMin: 987
       wordsPerMin: 228
       fuzzyTime:
-        pattern: %(approx)s %(count)d %(time_period)s
+        pattern: %(approx)s %(count)d %(time_unit)s
         approx: "About"
-        time_period:
+        time_unit:
           second: "second"
           seconds: "seconds"
           minute: "minute"
@@ -148,9 +148,9 @@ readtime:
       charPerMin: 1500
       wordsPerMin: 300
       fuzzyTime:
-        pattern: %(approx)s %(count)d%(time_period)s
+        pattern: %(approx)s %(count)d%(time_unit)s
         approx: "appx"
-        time_period:
+        time_unit:
           second: "sec"
           minute: "min"
 ```
