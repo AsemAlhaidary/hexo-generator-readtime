@@ -25,6 +25,8 @@ let readTime_init = function (post) {
     if (!this.config.render_drafts && post.source.startsWith("_drafts/"))
         return post;
 
+    //Debug output status when enabled by `--debug` flag
+    hexo.log.debug(`ReadTime scanning:  ${post.source}`);
 
     // check language defaults
     let lang = post.lang || hexo.config.language[0] || 'en'; //ISO-639-1 code
