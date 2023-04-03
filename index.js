@@ -83,7 +83,7 @@ let readTime_init = function (post) {
             fs.writeFile(post.full_source, '---\n' + front.stringify(tmpPost), 'utf-8');
 
             //show debug info
-            hexo.log.i("Generated: readTime [%s] %j", post.source, rtMetrics);
+            hexo.log.info("Generated: readTime [%s] %j", post.source, rtMetrics);
         }
     }
 
