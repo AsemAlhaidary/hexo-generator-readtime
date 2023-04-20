@@ -4,11 +4,14 @@
 var hexo = hexo || {};
 var front = require('hexo-front-matter');
 var fs = require('hexo-fs');
-
-const rtSettings = require('./Settings/_readTime.json');
 var readTime = require('./lib/readtime');
+// const rtSettings = JSON.parse(
+//   await fs.readFile(new URL('./Settings/_readTime.json', import.meta.url))
+// );
 
-//debugger; //init debugger
+const rtSettings = fs.readFile('./Settings/_readTime.json');
+
+// debugger; //tell vscode to stop here for debugging
 
 
 /**

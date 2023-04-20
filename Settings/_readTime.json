@@ -111,6 +111,33 @@
         }
       }
     },
+    "el": {
+      "name": "Greek",
+      "nativeName": "Ελληνικά",
+      "family": "Hellenic",
+      "region": ["Greece", "Cyprus"],
+      "unicodeRange": ["\u0021-\u007E", "\u0386-\u03CE", "\u1F00-\u1FFF", "\u2C60-\u2C7F"],
+      "charPerMin": 843,
+      "wordsPerMin": 182,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
+        "approx": "Περίπου",
+        "time_unit": {
+          "second": "δευτερόλεπτο",
+          "seconds": "δευτερόλεπτα",
+          "minute": "λεπτό",
+          "minutes": "λεπτά",
+          "hour": "ώρα",
+          "hours": "ώρες",
+          "day": "ημέρα",
+          "days": "ημέρες",
+          "month": "μήνας",
+          "months": "μήνες",
+          "year": "έτος",
+          "years": "έτη"
+        }
+      }
+    },
     "es": {
       "name": "Spanish",
       "nativeName": "Español",
@@ -300,6 +327,33 @@
         }
       }
     },
+    "hy": {
+      "name": "Armenian",
+      "nativeName": "հայերեն",
+      "family": "Indo-European",
+      "region": ["Armenia"],
+      "unicodeRange": ["\u0021-\u007E", "\u0531-\u058F", "\uFB13-\uFB17"],
+      "charPerMin": 550,
+      "wordsPerMin": 120,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
+        "approx": "մոտակայքում",
+        "time_unit": {
+          "second": "վայրկյան",
+          "seconds": "վայրկյան",
+          "minute": "րոպե",
+          "minutes": "րոպե",
+          "hour": "ժամ",
+          "hours": "ժամ",
+          "day": "օր",
+          "days": "օր",
+          "month": "ամիս",
+          "months": "ամիս",
+          "year": "տարի",
+          "years": "տարի"
+        }
+      }
+    },
     "it": {
       "name": "Italian",
       "nativeName": "Italiano",
@@ -408,6 +462,33 @@
         }
       }
     },
+    "ka": {
+      "name": "Georgian",
+      "nativeName": "ქართული",
+      "family": "Kartvelian",
+      "region": ["Georgia"],
+      "unicodeRange": ["\u0021-\u007E", "\u10A0-\u10FF", "\u1C90-\u1CBF"],
+      "charPerMin": 600,
+      "wordsPerMin": 130,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
+        "approx": "დან",
+        "time_unit": {
+          "second": "წამში",
+          "seconds": "წამში",
+          "minute": "წუთში",
+          "minutes": "წუთში",
+          "hour": "საათში",
+          "hours": "საათში",
+          "day": "დღეში",
+          "days": "დღეში",
+          "month": "თვეში",
+          "months": "თვეში",
+          "year": "წელში",
+          "years": "წელში"
+        }
+      }
+    },
     "kr": {
       "name": "Korean",
       "nativeName": "한국어",
@@ -432,6 +513,33 @@
           "months": "월간",
           "year": "연간",
           "years": "연간"
+        }
+      }
+    },
+    "la": {
+      "name": "Latin",
+      "nativeName": "Latīna",
+      "family": "Indo-European",
+      "region": ["Roman Empire", "Roman Catholic Church"],
+      "unicodeRange": ["\u0021-\u007E", "\u0080-\u00FF", "\u0100-\u017F"],
+      "charPerMin": 620,
+      "wordsPerMin": 115,
+      "fuzzyTime": {
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
+        "approx": "Circa",
+        "time_unit": {
+          "second": "secunda",
+          "seconds": "secundae",
+          "minute": "minuta",
+          "minutes": "minutae",
+          "hour": "hora",
+          "hours": "horae",
+          "day": "dies",
+          "days": "dies",
+          "month": "mensis",
+          "months": "menses",
+          "year": "annus",
+          "years": "anni"
         }
       }
     },
