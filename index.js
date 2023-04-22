@@ -9,7 +9,7 @@ var readTime = require('./lib/readtime');
 //   await fs.readFile(new URL('./Settings/_readTime.json', import.meta.url))
 // );
 
-const rtSettings = fs.readFile('./Settings/_readTime.json');
+const rtSettings = require('./Settings/_readTime.json');
 
 // debugger; //tell vscode to stop here for debugging
 
