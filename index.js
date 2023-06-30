@@ -4,7 +4,7 @@
 var hexo = hexo || {};
 var front = require('hexo-front-matter');
 var fs = require('hexo-fs');
-var readTime = require('./lib/readtime');
+var readTime = require('./lib/readTime');
 // const rtSettings = JSON.parse(
 //   await fs.readFile(new URL('./Settings/_readTime.json', import.meta.url))
 // );
