@@ -99,4 +99,4 @@ let readTime_init = function (post) {
  * Register the `before_post_render` event listener to trigger readTime
  * See https://hexo.io/api/events for further details on events
  */
-hexo.extend.filter.register('before_post_render', readTime_init);
+hexo.extend.filter.register('before_post_render', readTime_init, 15 );
