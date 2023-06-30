@@ -1,14 +1,46 @@
 {
+    "git.ignoreLimitWarning": true,
     "[markdown]": {
-        "editor.fontSize": 11,
-        "editor.lineHeight": 26,
-        "editor.wordWrapColumn": 84,
-        "editor.lineNumbers": "on",
-        "editor.quickSuggestions": {
-            "comments": "off",
-            "strings": "off",
-            "other": "off"
-        },
-        "editor.minimap.enabled": true
+      "editor.fontSize": 12,
+      "editor.wordWrapColumn": 80,
+      "editor.lineNumbers": "on",
+      "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+      },
+      "editor.minimap.enabled": true
+    },
+    "frontMatter.dashboard.openOnStart": true,
+    "debug.javascript.autoAttachSmartPattern": [
+      "${workspaceFolder}/**",
+      "!**/node_modules/**",
+      "**/$KNOWN_TOOLS$/**",
+      "*.ejs"
+    ],
+    "markdownlint.config": {
+      "default": true,
+      "MD003": {
+        "style": "atx"
+      },
+      "MD007": {
+        "indent": 2
+      },
+      "MD013": false,
+      "MD024": false,
+      "MD033": false,
+      "MD034": false,
+      "MD045": false,
+      "no-hard-tabs": true,
+      "focusMode": true
+    },
+    {
+      "key": "ctrl+tab",
+      "command": "workbench.action.nextEditor"
+    },
+    {
+      "key": "ctrl+shift+tab",
+      "command": "workbench.action.previousEditor"
     }
-}
+  }
+  
