@@ -1298,6 +1298,33 @@
           "years": "年"
         }
       }
+    },
+    "zh": {
+      "name": "Chinese",
+      "nativeName": "中文 (简体)",
+      "family": "Sino-Tibetan",
+      "region": ["China", "Singapore"],
+      "unicodeRange": ["\u0021-\u007E", "\u0021-\u007E", "\u4E00-\u9FFF"],
+      "charPerMin": 255,
+      "wordsPerMin": 158,
+      "fuzzyTime": {
+        "pattern": "%(approx)s%(count)d%(time_unit)s",
+        "approx": "约",
+        "time_unit": {
+          "second": "秒",
+          "seconds": "秒",
+          "minute": "分钟",
+          "minutes": "分钟",
+          "hour": "小时",
+          "hours": "小时",
+          "day": "日",
+          "days": "日",
+          "month": "月",
+          "months": "月",
+          "year": "年",
+          "years": "年"
+        }
+      }
     }
   }
 }
