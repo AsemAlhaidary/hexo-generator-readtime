@@ -177,7 +177,7 @@ readtime:
 | Japanese | 日本語 | ja |
 | Javanese | Basa Jawa | jv |
 | Georgian | ქართული | ka |
-| Korean | 한국어 | kr |
+| Korean | 한국어 | ko |
 | Latin | Latīna | la |
 | Dutch | Nederlands | nl |
 | Punjabi | ਪੰਜਾਬੀ | pa |
