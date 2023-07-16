@@ -822,7 +822,7 @@
       "charPerMin": 700,
       "wordsPerMin": 90,
       "fuzzyTime": {
-        "pattern": "%(approx)s %(time_unit)s %(count)d යි",
+        "pattern": "%(time_unit)s %(count)dක් %(approx)s",
         "approx": "අතර",
         "time_unit": {
           "second": "තත්පර",
