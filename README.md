@@ -29,11 +29,12 @@ It updates the front-matter of your posts to include the analytics data. The fol
 | parameter | description |
 | --- | --- |
 | *readTime* | String that represents the estimated time to read the article. Printed in the detected language's native text. |
-| *imgCount* | Count of images detected in the file. |
+| *imgCount* | Count of images found in the file. |
 | *vidCount* | Count of videos detected in the file. |
-| *wordCount* | Count of words detected in the file. This works very well for non-Asian languages. Some languages don't employ the space character as a word boundary. For Asian languages such as Chinese, Korean, Japanese, and Vietnamese, another method is required to create word tokens. |
+| *wordCount* | Count of words in the file. This works very well for non-Asian languages. Some languages don't employ the space character as a word boundary. For Asian languages such as Chinese, Korean, Japanese, and Vietnamese, another method is required to create word tokens. |
 | *wsCount* | Count of white-space characters detected in the file. This is only useful for non-Asian languages. |
 | *charCount* | Letters detected for the given language in the file. |
+| *cbCount* | Count of code blocks in the file. |
 
 👉🏻 Note: it only reads the posts from the `/source/_posts/` folder. You can reference these values in your EJS template files from the object `post`. For example: `<%= post.readTime %>`. This plugin updates both in-memory `post` object and the markdown file.
 
@@ -71,7 +72,7 @@ readtime: ## plugin config. Only define this if you need to override the built-i
           months: m
           year: y
           years: y
-
+### some languages are recommended to encapsulate the values within double-quote (") marks.
 ```
 
 ## Options

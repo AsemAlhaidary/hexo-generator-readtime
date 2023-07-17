@@ -51,7 +51,7 @@ let readTime_init = function (post) {
     // confirm detected lang code exist in settings
     if (!rtSettings.langProfile.hasOwnProperty(lang)){
         hexo.log.i("Language Profile \"%s\" not found for [%s]. Defaulting to English.", lang, post.title);
-        
+
         //language profile not found. Default back to English
         lang = "en";
     }
@@ -65,7 +65,8 @@ let readTime_init = function (post) {
         imgCount: rtObj.imgCount,
         vidCount: rtObj.vidCount,
         wsCount: rtObj.wsCount,
-        readTime: rtString,
+        cbCount: rtObj.codeBlockCount,
+        readTime: rtString
     };
 
     Object.assign(post, rtMetrics); //merge metrics with post data
@@ -95,7 +96,7 @@ let readTime_init = function (post) {
 };
 
 
-/* 
+/*
  * Register the `before_post_render` event listener to trigger readTime
  * See https://hexo.io/api/events for further details on events
  */
