@@ -823,11 +823,11 @@
       "wordsPerMin": 90,
       "fuzzyTime": {
         "pattern": "%(time_unit)s %(count)dක් %(approx)s",
-        "approx": "අතර",
+        "approx": "පමණ",
         "time_unit": {
-          "second": "තත්පර",
+          "second": "තත්පරය",
           "seconds": "තත්පර",
-          "minute": "මිනිත්තු",
+          "minute": "මිනිත්තුව",
           "minutes": "මිනිත්තු",
           "hour": "පැය",
           "hours": "පැය",
