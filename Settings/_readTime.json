@@ -12,7 +12,7 @@
       "charPerMin": 612,
       "wordsPerMin": 138,
       "fuzzyTime": {
-        "pattern": "%(time_unit)s %(count)d %(approx)s",
+        "pattern": "%(approx)s %(count)d %(time_unit)s",
         "approx": "حوالي",
         "time_unit": {
           "second": "ثانية",
