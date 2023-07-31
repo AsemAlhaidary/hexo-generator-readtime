@@ -214,6 +214,8 @@ readtime:
 
 Please submit an issue to [request your language](https://github.com/AsemAlhaidary/hexo-generator-readtime/issues/new/choose) to be added. It helps if you can suggest the profile details too. Otherwise, I need to research it and that can take time.
 
+You can also make feature requests and submit language corrections.
+
 ## Sponsor
 
 This package is sponsored by [LoreZyra](https://blog.richiebartlett.com/), you can find him at his [Website](https://richiebartlett.com/), also [Github](https://github.com/lorezyra)
