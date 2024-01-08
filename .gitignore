@@ -1,2 +1,4 @@
 node_modules/
 cgpt.txt
+/.frontmatter
+frontmatter.json
