@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "LoreZyra <Rich@RichieBartlett.com",
+  "author": "LoreZyra <Rich@RichieBartlett.com>",
   "contributors": [{
 		"name": "AsemAlhaidary",
 		"email": "asem@cleanedpaper.com",
@@ -65,7 +65,7 @@
     "sprintf-js": "^1.1.3"
   },
   "engines": {
-    "node": "^18.0.0",
+    "node": ">=18.0.0",
     "npm": ">=8"
   }
 }
