@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-readtime",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "HEXO package that provides analytics on the read time to review a post. Generates word, character, image, video, and codeblock counts in the front-matter of the markdown file. Plus provides read-time estimates for given language profile. Supports 48 languages!",
   "main": "index.js",
   "scripts": {
