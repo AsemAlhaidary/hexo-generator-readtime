@@ -498,21 +498,21 @@
       "charPerMin": 285,
       "wordsPerMin": 200,
       "fuzzyTime": {
-        "pattern": "%(approx)s%(count)d%(time_unit)s",
-        "approx": "남은",
+        "pattern": "%(approx)s %(count)d%(time_unit)s",
+        "approx": "약",
         "time_unit": {
-          "second": "초간",
-          "seconds": "초간",
+          "second": "초",
+          "seconds": "초",
           "minute": "분",
           "minutes": "분",
-          "hour": "시간",
-          "hours": "시간",
-          "day": "일간",
-          "days": "일간",
-          "month": "월간",
-          "months": "월간",
-          "year": "연간",
-          "years": "연간"
+          "hour": "시",
+          "hours": "시",
+          "day": "일",
+          "days": "일",
+          "month": "월",
+          "months": "월",
+          "year": "연",
+          "years": "연"
         }
       }
     },
